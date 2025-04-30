@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>TITLE</title>
+    <meta name="description" content="DESCRIPTION" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="TITLE" />
+    <meta property="og:description" content="DESCRIPTION" />
+    <meta property="og:image" content="IMG" />
+    <meta property="og:url" content="URL" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TITLE" />
+    <meta name="twitter:description" content="DESCRIPTION" />
+    <meta name="twitter:image" content="IMG" />
+
+    <!-- Elfsight widget -->
+    <script src="https://static.elfsight.com/platform/platform.js" async></script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G12RJM7459"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-G12RJM7459', {
+        page_path: window.location.pathname,
+      });
+    </script>
+    <!-- End Google Analytics -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

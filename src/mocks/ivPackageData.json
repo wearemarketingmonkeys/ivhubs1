@@ -1,0 +1,107 @@
+{
+    "ivPackageData": [
+      {
+        "img": "ivPackage1.webp",
+        "title": "Acne Package",
+        "desc": {
+          "brif": "Our Acne Treatment Package is designed to address the root causes of acne through a multi-faceted, personalized approach. Here’s what you can expect:",
+          "ul": [
+            {
+              "liTitle": "Consultation with expert – to prepare pathology and the complicated multi-faceted treatment"
+            },
+            {
+              "liTitle": "Full review of diet, lifestyle, and current face care routine (bring your products)"
+            },
+            {
+              "liTitle": "Complete package offering including based on the needs of the person – Price is $3,000 for the package value $3600:",
+              "subLi": [
+                "Up to 8 BBL treatments",
+                "Up to 3 chemical peels",
+                "Up to 2 products from our boutique"
+              ]
+            }
+          ]
+        },
+        "bookingBtn": "/booking",
+        "newBadge": true
+      },
+      {
+        "img": "ivPackage2.webp",
+        "title": "Hair Loss Package",
+        "desc": {
+          "brif": "Our Hair Loss Package offers a thorough, personalized approach to help you address this issue effectively. Here's how we handle hair loss:",
+          "ul": [
+            {
+              "liTitle": "Consultation with Doctor Noemie Vezina – 1 of 8 doctors in Canada on the hair loss consensus will assess your needs"
+            },
+            {
+              "liTitle": "Medical assessment – scalp examination to determine the causes (hormonal, nutritional, stress, genetics, or other)"
+            },
+            {
+              "liTitle": "Personalized treatment protocol"
+            },
+            {
+              "liTitle": "Partnership with Follicl MD"
+            }
+          ]
+        },
+        "bookingBtn": "/booking",
+        "newBadge": true
+      },
+      {
+        "img": "ivPackage3.webp",
+        "title": "Pigmentation Package",
+        "desc": {
+          "brif": "Our Pigmentation Package offers a personalized and comprehensive approach to address various types of pigmentation, ensuring you receive the most effective treatment for your specific needs. Here's how we handle pigmentation:",
+          "ul": [
+            {
+              "liTitle": "Consultation with expert – not all pigment are the same and it should not be treated as such ex. Melasma"
+            },
+            {
+              "liTitle": "Establish type of pigment (sunspot, melasma, age, or other)"
+            },
+            {
+              "liTitle": "Full review of current face care routine (bring your products)"
+            },
+            {
+              "liTitle": "Complete package offering including based on the person – Price is $4,750 for the package value $6,000:",
+              "subLi": [
+                "Up to 2 HALO treatments",
+                "Up to 2 Nano Laser Peel or Chemical Peel",
+                "Up to 2 BBL treatments",
+                "Discoloration Defense",
+                "Vitamin C",
+                "Ratinol"
+              ]
+            }
+          ]
+        },
+        "bookingBtn": "/booking",
+        "newBadge": false
+      },
+      {
+        "img": "ivPackage4.webp",
+        "title": "Wrinkle Package",
+        "desc": {
+          "brif": "At SABBYA, we offer a comprehensive solution to help you achieve smoother, younger-looking skin. Here’s how we handle wrinkles:",
+          "ul": [
+            {
+              "liTitle": "Consultation with Doctor Noemie Vezina"
+            },
+            {
+              "liTitle": "Complete package offering including based on the person – Price is 200 AD for the package value $5,100:",
+              "subLi": [
+                "Up to 60 units of Botox or Dysport",
+                "Up to 2 HALO or 3 Morpheus 8 treatments",
+                "Vitamin C",
+                "Ratinol"
+              ]
+            }
+          ]
+        },
+        "bookingBtn": "/booking",
+        "newBadge": false
+      }
+    ]
+  }
+  

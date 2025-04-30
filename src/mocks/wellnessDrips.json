@@ -1,0 +1,1271 @@
+{
+    "dripsData": [
+      {
+        "id": 1,
+        "category": "Beauty",
+        "img": "beauty-hub.webp",
+        "title": "Beauty Hub",
+        "price": 999,
+        "desc": "complete beauty package for your skin, hair and nails",
+        "para1": "BEAUTY HUB is your go-to choice for luminous hair, and healthy skin and nails. Include it in your monthly beauty maintenance as your secret weapon to achieve what many refer to as the “INNER GLOW”.",
+        "para2": "This universal and all-important molecule is the mother of all antioxidants. N-Acetylcysteine is known as the body’s “Master Antioxidant” and helps naturally purify you from the inside out.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Your Glow with Beauty Hub",
+        "benifits": [
+          "Strengthens Hair, Skin, And Nails",
+          "Evens Skin Tone",
+          "Detoxifies Cells"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Blemishes"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue & Hair-Loss"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Polluttant Exposure"
+          },
+          {
+            "icon": "icon4.png",
+            "txt": "Poor Diet"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Post Vacation"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Unwanted Cravings"
+          },
+          {
+            "icon": "icon7.png",
+            "txt": "Before Social Events"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "N-Acetylcysteine",
+            "txt": "Replenishes glutathione levels in the body"
+          },
+          {
+            "name": "ALPHA LIOPIC ACID",
+            "txt": "Reduce inflammation and skin aging"
+          },
+          {
+            "name": "SELENIUM",
+            "txt": "Promotes hair growth and hair regrowth by killing harmful free radicals."
+          },
+          {
+            "name": "Glutathione",
+            "txt": "Shielding skin cells from free radical damage, reducing hyperpigmentation, and promoting anti-aging benefits."
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/beauty-hub"
+      },
+      {
+        "id": 2,
+        "category": "Wellness",
+        "img": "boost-hub.webp",
+        "title": "Boost Hub",
+        "price": 999,
+        "desc": "Boost your Blood Cells!",
+        "para1": "Iron deficiency is one of the most difficult conditions to deal with. You may experience an unexplained lack of energy and dizziness which can interfere with your day-to-day bodily functions. This can be attributed to the lack of iron, vitamins, and other multi-trace minerals in the body. The Boost IV Drip consists of the key nutrients to help you boost your Iron levels in the body, therefore, preventing and curing Iron Deficiency Anemia.",
+        "para2": "The main ingredient of this IV drip is Iron. Iron is one of the most important components to produce blood cells. Iron absorption is enhanced by Vitamin C and Vitamin B12 which are also present in the drip. The drip also contains Folic Acid. Folic Acid and Vitamin B12 work together to produce red blood cells.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get rid of Anemia and restore your body functions",
+        "benifits": [
+          "Increases the body’s iron levels quickly – faster results",
+          "Helps your body to produce red blood cells and keep your nervous system healthy",
+          "Unlike oral supplements, less likelihood of experiencing unpleasant side effects"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Iron Deficiency"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Fatigue & Hair-Loss"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Polluttant Exposure"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Iron",
+            "txt": "Helps in the synthesis of Red Blood Cells"
+          },
+          {
+            "name": "B12 & Ascorbic acid",
+            "txt": "Help in the absorption of Iron"
+          },
+          {
+            "name": "Folic Acid",
+            "txt": "Works with iron to produce Red Blood Cells"
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/boost-hub"
+      },
+      {
+        "id": 3,
+        "category": "Wellness",
+        "img": "cleanse-hub.webp",
+        "title": "Cleanse Hub",
+        "price": 999,
+        "desc": "Detox and Replenish",
+        "para1": "CLEANSE HUB is our signature and most loved IV drip, utilizing the detoxifying power of NAC (known as the “Master Antioxidant”) and Vitamin C to combat the toxic impact of an urban lifestyle while decreasing inflammation and promoting immunity.",
+        "para2": "N- Acetylcysteine increases your body’s ability to naturally detoxify, targeting the liver to flush out harmful toxins, as well as assisting in fighting off illness. Also helps with glowing skin.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Cleanse Hub Detoxify and Rejuvenate Your Body",
+        "benifits": [
+          "Promotes Detox Of Toxic Chemicals And Heavy Metals",
+          "Helps to Increase Blood Flow to Assist Your Body’s Immune System",
+          "Cleanses the Body Of Harmful Free Radicals, Reducing Oxidative Stress"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon4.png",
+            "txt": "Poor Diet"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Pollutant Exposure"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Polluttant Exposure"
+          },
+          {
+            "icon": "icon14.png",
+            "txt": "Stress"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Mental Fog"
+          },
+          {
+            "icon": "icon15.png",
+            "txt": "Sleep Deprived"
+          },
+          
+          {
+            "icon": "icon9.png",
+            "txt": "Unable to Focus"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "N-Acetylcysteine",
+            "txt": "Replenishes glutathione levels in the body"
+          },
+          {
+            "name": "MAGNESIUM CHLORIDE",
+            "txt": "Reduce inflammation and skin aging"
+          },
+          {
+            "name": "THIAMINE HCL (VIT.B1)",
+            "txt": "Prevents complications in the nervous system, brain, muscles, heart, stomach, and intestines."
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/cleanse-hub"
+      },
+      {
+        "id": 4,
+        "category": "Wellness",
+        "img": "energy-hub.webp",
+        "title": "Energy Hub ",
+        "price": 999,
+        "desc": "Energy Hub Boost Energy Levels",
+        "para1": "Feel the power of natural energy with our IV Super B’s mix Energy hub. The family of B vitamins is used in just about every chemical reaction in the body, especially when it comes to providing energy, detoxifying the body, and mental clarity. Leave feeling refreshed with natural energy burning from within.",
+        "para2": "Boosts energy and provides the perfect “pick me up”, may increase metabolism and sexual vitality, and is great for adrenal fatigue, low energy levels, and long working hours.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Boost Your Energy",
+        "benifits": [
+          "Increases Natural Energy Production",
+          "Stops Feeling Sluggish",
+          "Boosts Mental Clarity"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon2.png",
+            "txt": "Adrenal Fatigue"
+          },
+          {
+            "icon": "icon13.png",
+            "txt": "Low Immunity"
+          },
+          {
+            "icon": "icon16.png",
+            "txt": "Muscle Soreness and Stiffness"
+          },
+          {
+            "icon": "icon14.png",
+            "txt": "Stress"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Low Energy"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Carnitine",
+            "txt": "This molecule has been well-studied extensively for energy production. Carnitine contributes to the transfer of long-chain fatty acids into mitochondria, which oxidizes that fat for energy. Ideal for weight loss, building muscle mass and boosting performance."
+          },
+          {
+            "name": "Taurine",
+            "txt": "Taurine is essential for cardiovascular function and helps you maintain a healthy brain and heart. Furthermore, it can assist in lowering blood pressure, calming the nervous system, mitigating stress and fighting inflammation."
+          },
+          {
+            "name": "B-Vitamins",
+            "txt": "The family of B vitamins is used in just about every chemical reaction in the body, especially when it comes to producing cellular energy, protecting the immune system, producing strong red blood cells, hormonal function and a healthy metabolism."
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/energy-hub"
+      },
+      {
+        "id": 5,
+        "category": "Fitness",
+        "img": "fitness-hub.webp",
+        "title": "Fitness Hub",
+        "price": 999,
+        "desc": "Kickstart The Fat Burn!",
+        "para1": "If you have ever struggled with weight loss, attempting various different fad diets, yo-yoing up and down, or just not getting the results you expected, FITNESS HUB may be that extra boost you need.",
+        "para2": "FITNESS HUB is the ultimate weight loss and fat-burning enhancement to your diet. Kickstart your weight loss with this lipotropic cocktail with fat mobilizing amino acids, that will enhance liver function and remove toxins and fat cells in your body.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Kickstart The Fat Burn with fitness hub!",
+        "benifits": [
+          "Targets Liver And Flushes Toxins",
+          "Increases Metabolism",
+          "Burns Fat Cells"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue"
+          },
+          {
+            "icon": "icon10.png",
+            "txt": "Muscle Loss"
+          },
+          {
+            "icon": "icon16.png",
+            "txt": "Muscle Soreness and Stiffness"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Post Vacation"
+          },
+          {
+            "icon": "icon13.png",
+            "txt": "Prolonged Recovery Time after Excercing"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Methionine",
+            "txt": "An essential amino acid that must be consumed through supplement (or 100% bioavailability IV infusion) that assists with breaking down fat cells within the liver, and eliminates fat deposits. Methionine also improves skin tone and elasticity, nails, hair, and cardiovascular and muscular functions, through its role in the production of creatine."
+          },
+          {
+            "name": "Inositol",
+            "txt": "A b-vitamin used for breaking down fats, promoting the health of cell structures, reduces blood cholesterol and controls mood and appetite. Inositol is also helpful in treating depression, panic disorder and fatty liver, and is most effective through intravenous infusion."
+          },
+          {
+            "name": "Choline",
+            "txt": "An essential nutrient that supports the liver in processing and excretion of chemical waste. Choline also supports the metabolism of fats and cholesterol."
+          },
+          {
+            "name": "L-Carnitine",
+            "txt": "A hunger suppressing nutrient for weight loss that contributes to the transfer of longchain fatty acids into mitochondria for energy production."
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/fitness-hub"
+      },
+      {
+        "id": 6,
+        "category": "Fitness",
+        "img": "fitness-hub-express.webp",
+        "title": "Fitness Hub Express",
+        "price": 499,
+        "desc": "complete beauty package for your skin, hair and nails",
+        "para1": "If you have ever struggled with weight loss, attempting various different fad diets, yo-yoing up and down, or just not getting the results you expected, FITNESS HUB may be that extra boost you need.",
+        "para2": "FITNESS HUB is the ultimate weight loss and fat-burning enhancement to your diet. Kickstart your weight loss with this lipotropic cocktail with fat mobilizing amino acids, that will enhance liver function and remove toxins and fat cells in your body.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Kickstart The Fat Burn with fitness hub!",
+        "benifits": [
+          "Targets Liver And Flushes Toxins",
+          "Increases Metabolism",
+          "Burns Fat Cells"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue"
+          },
+          {
+            "icon": "icon10.png",
+            "txt": "Muscle Loss"
+          },
+          {
+            "icon": "icon16.png",
+            "txt": "Muscle Soreness and Stiffness"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Post Vacation"
+          },
+          {
+            "icon": "icon13.png",
+            "txt": "Prolonged Recovery Time after Excercing"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Methionine",
+            "txt": "An essential amino acid that must be consumed through supplement (or 100% bioavailability IV infusion) that assists with breaking down fat cells within the liver, and eliminates fat deposits. Methionine also improves skin tone and elasticity, nails, hair, and cardiovascular and muscular functions, through its role in the production of creatine."
+          },
+          {
+            "name": "Inositol",
+            "txt": "A b-vitamin used for breaking down fats, promoting the health of cell structures, reduces blood cholesterol and controls mood and appetite. Inositol is also helpful in treating depression, panic disorder and fatty liver, and is most effective through intravenous infusion."
+          },
+          {
+            "name": "Choline",
+            "txt": "An essential nutrient that supports the liver in processing and excretion of chemical waste. Choline also supports the metabolism of fats and cholesterol."
+          },
+          {
+            "name": "L-Carnitine",
+            "txt": "A hunger suppressing nutrient for weight loss that contributes to the transfer of longchain fatty acids into mitochondria for energy production."
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/fitness-hub-express"
+      },
+      {
+        "id": 7,
+        "category": "Beauty",
+        "img": "glow-hub.webp",
+        "title": "Glow Hub",
+        "price": 799,
+        "desc": "For your best looking self!",
+        "para1": "GLOW HUB is your best buddy when it comes to healthy glowing skin. Include GLOW HUB in your beauty routine as your secret weapon to achieve what many refer to as the “Natural Glow”.",
+        "para2": "This universal and all-important molecule is the mother of all antioxidants. “Master Antioxidant” helps naturally purify you from the inside out.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Your Natural Glow with Glow Hub Drip",
+        "benifits": [
+          "Glowing skin",
+          "Detoxifies Cells"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Blemished Dull Skin"
+          },
+          {
+            "icon": "icon4.png",
+            "txt": "Poor Diet"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Post Vacation"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Polluttant Exposure"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Before social events"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Low Energy"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Alpha Lipoic Acid",
+            "txt": "Reduces inflammation and skin aging also helps with regeneration of new skin cells"
+          },
+          {
+            "name": "Gamma-L-glutamyl-L-cysteinylglycine",
+            "txt": "Gamma-L-glutamyl-L-cysteinylglycine are instrumental in the growth, development, and repair of all body tissues. Also, referred to as a “Master Antioxidant”"
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/glow-hub"
+      },
+      {
+        "id": 8,
+        "category": "Beauty",
+        "img": "glow-hub-express.webp",
+        "title": "Beauty Hub Express",
+        "price": 499,
+        "desc": "For your best looking self!",
+        "para1": "GLOW HUB is your best buddy when it comes to healthy glowing skin. Include GLOW HUB in your beauty routine as your secret weapon to achieve what many refer to as the “Natural Glow”.",
+        "para2": "This universal and all-important molecule is the mother of all antioxidants. “Master Antioxidant” helps naturally purify you from the inside out.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Your Natural Glow with Glow Hub Drip",
+        "benifits": [
+          "Glowing skin",
+          "Detoxifies Cells"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Blemished Dull Skin"
+          },
+          {
+            "icon": "icon4.png",
+            "txt": "Poor Diet"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Post Vacation"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Polluttant Exposure"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Before social events"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Low Energy"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Alpha Lipoic Acid",
+            "txt": "Reduces inflammation and skin aging also helps with regeneration of new skin cells"
+          },
+          {
+            "name": "Gamma-L-glutamyl-L-cysteinylglycine",
+            "txt": "Gamma-L-glutamyl-L-cysteinylglycine are instrumental in the growth, development, and repair of all body tissues. Also, referred to as a “Master Antioxidant”"
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/glow-hub-express"
+      },
+      {
+        "id": 9,
+        "category": "Beauty",
+        "img": "hairfall-defense.webp",
+        "title": "Hairfall Defense",
+        "price": 899,
+        "desc": "Supercharge your hair!",
+        "para1": "Some needles hurt and some don’t! IV Vitamins for hair are new to our nice-needle list. This IV includes a combination of B Vitamins and minerals for strengthening and fortification, guaranteed to give you renewed locks that you can flaunt.",
+        "para2": "The star ingredient of this IV Drip is Biotin. Vitamin b7 or Biotin is a B-complex vitamin that boosts the strength and appearance of your hair. It works largely by improving the infrastructure of your hair at the cellular level. The other vitamin and minerals in the drip work harmoniously to improve the quality of your hair by preventing sodium buildup (leading to reduced hair fall), accelerating follicle recovery, strengthening the hair shaft, and helping the body regulate cell turnover",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Your Glow with Beauty Hub",
+        "benifits": [
+          "Increases cell production for healthy skin, hair and nails",
+          "Reduces the risk of scalp inflammation",
+          "Improves collagen formation and hydrates the skin"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Pollutant Exposure"
+          },
+          {
+            "icon": "icon14.png",
+            "txt": "Stress"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Hair fall & Hair Thinning"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Biotin",
+            "txt": "Promotes hair growth by nourishing the roots and strengthening hair shafts"
+          },
+          {
+            "name": "B12",
+            "txt": "Hair loss is often a direct consequence of Vitamin B12. The B12 in our drop improves scalp and blood circulation, promoting hair growth."
+          },
+          {
+            "name": "Zinc",
+            "txt": "Makes your hair follicles stronger by improving their basic structural integrity"
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/hairfall-defense"
+      },
+      {
+        "id": 10,
+        "category": "Recovery",
+        "img": "immune-hub.webp",
+        "title": "Immune Hub",
+        "price": 699,
+        "desc": "Supercharge Your Immune Defenses",
+        "para1": "Our number one immune booster drip for sickness and recovery.",
+        "para2": "IMMUNE HUB is perfect for those who need a quick turnaround or boost to their immune defenses.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Reinforce Your Auto-Immune Defenses with immune booster drip",
+        "benifits": [
+          "Super Charges Your Immune System",
+          "Increases Antioxidant Capabilities to Naturally Detoxify Your Body",
+          "Builds Your Natural Defenses"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon13.png",
+            "txt": "Battling A Virus, Cold, Or Infection"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Prone to getting Sick"
+          },
+          {
+            "icon": "icon11.png",
+            "txt": "Under the Weather"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Low Energy"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Feeling Low"
+          },
+          {
+            "icon": "icon15.png",
+            "txt": "During Flu Season"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Vitamin C",
+            "txt": "Often used in preventative care, Vitamin C helps boost immune function and protect your body from oncoming illness."
+          },
+          {
+            "name": "Zinc",
+            "txt": "This wound-mending Earth metal helps boost immunity, assists in blood clotting, and plays a critical role in maintaining healthy vision."
+          },
+          {
+            "name": "HYDROXOCOBALAMIN (VIT. B 12)",
+            "txt": "Reduce tiredness and lack of energy."
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/immune-hub"
+      },
+      {
+        "id": 11,
+        "category": "Wellness",
+        "img": "womens-health-hub.webp",
+        "title": "Women's Health Hub",
+        "price": 999,
+        "desc": "A drip specifically designed for the ladies!",
+        "para1": "This drip can aid in fulfilling the gaps in your overall well-being. These don’t just eradicate deficiencies but also reduce the risk of serious health conditions.",
+        "para2": "The mix of vitamins, zinc, calcium & magnesium is used in just about every chemical reaction in the body, especially when it comes to providing energy, detoxifying the body, and mental clarity. This also aids in maintaining and improving bone structure, regulating menstrual cycles, maintaining a healthy weight, lowering depression, and improving mood.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Boost Your Energy with Natural energy boosters",
+        "benifits": [
+          "Replenishes vitamins",
+          "Increases bone density and regulates menstrual cycle",
+          "Boosts Mental Clarity"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue"
+          },
+          {
+            "icon": "icon1.png",
+            "txt": "Blemishes"
+          },
+          {
+            "icon": "icon12.png",
+            "txt": "Irregular Menstrual Cycle"
+          },
+          {
+            "icon": "icon13.png",
+            "txt": "Low Immunity"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Post Vacation"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Mental Fog"
+          },
+          {
+            "icon": "icon14.png",
+            "txt": "Stress"
+          },
+          {
+            "icon": "icon15.png",
+            "txt": "Sleep Deprived"
+          },
+          {
+            "icon": "icon4.png",
+            "txt": "Vitamin Defeciancies"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Low Energy"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "IRON lll HYDEROXIDE SUCROSE",
+            "txt": "Maintains the iron level in the blood."
+          },
+          {
+            "name": "ALPHA LIOPIC ACID",
+            "txt": "Reduce inflammation and skin aging, lowers heart disease risk factors, and increase bone density."
+          },
+          {
+            "name": "THIAMINE HCI ( VIT. B1)",
+            "txt": "Prevents complications in the nervous system, brain, muscles, heart, stomach, and intestines."
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/womens-health-hub"
+      },
+      {
+        "id": 12,
+        "category": "Fitness",
+        "img": "iv-supreme.webp",
+        "title": "IV Wellness Supreme",
+        "price": 1999,
+        "desc": "Reverse the signs of aging",
+        "para1": "Our most powerful and comprehensive IV therapy — combining the forces of detox, immunity, recovery, and cellular revitalization",
+        "para2": "The IV Wellness Supreme Drip is designed to fast-track cellular regeneration, fortify your body’s defenses, and halt the visible signs of aging at their core.",
+        "para3": "Every day, your body produces billions of new cells — but with age, the risk of DNA degradation and cellular dysfunction increases.",
+        "para4": "Powered by a potent blend of metabolic co-enzymes, essential vitamins, antioxidants, and amino acids, the Supreme Drip restores, repairs, and revitalizes your cells from the inside out — preserving DNA integrity and promoting total-body renewal.",
+        "para5": "This master infusion restructures, remodels, and recharges every cell, unlocking the highest potential for energy, immunity, recovery, and longevity.",
+        "para6": "Revitalize Your Body from Within with the IV Wellness Supreme Drip At IV Wellness, we believe true wellness starts at the cellular level. The IV Wellness Supreme Drip is a scientifically advanced infusion, crafted to restore, recharge, and renew every system in your body — unlocking optimal health, natural radiance, and lasting vitality.",
+        "para7": "Experience the Ultimate Reset — a transformative infusion designed to renew your energy, restore your glow, and optimize your health from the inside out.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Potential Benefits:",
+        "benifits": [
+          "Amplifies natural energy for enhanced performance and daily vitality",
+          "Boosts immune defense to help your body stay resilient year-round",
+          "Promotes luminous skin, stronger hair, and healthier nails",
+          "Supports deep detoxification, flushing out harmful toxins and oxidative stress",
+          "Enhances mental clarity, focus, and mood balance",
+          "Accelerates muscle recovery and improves physical endurance",
+          "Replenishes hydration and essential nutrients for total-body rejuvenation",
+          "Promotes restful sleep and aids in nervous system relaxation",
+          "Improves metabolic function for better cellular repair and nutrient absorption"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Aging Skin"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Cellular Respiration & Mitochondria Health"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Youthful Energy"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "FOLIC ACID",
+            "txt": "Promotes red blood cell production and healthy cell repair for enhanced vitality."
+          },
+          {
+            "name": "MAGNESIUM CHLORIDE",
+            "txt": "Reduces stress, enhances sleep quality, and supports muscle relaxation."
+          },
+          {
+            "name": "HYDROCOBALAMIN (VIT.B12)",
+            "txt": "Boosts energy production, sharpens mental focus, and supports nerve health."
+          },
+          {
+            "name": "Vitamin C",
+            "txt": "Brightens the skin, strengthens immunity, and combats oxidative damage."
+          },
+          {
+            "name": "NAD+ (Nicotinamide Adenine Dinucleotide)",
+            "txt": "Fuels cellular metabolism, enhances energy output, and supports optimal recovery."
+          },
+          {
+            "name": "Glutathione",
+            "txt": "The body's master antioxidant, detoxifying cells and promoting radiant skin."
+          },
+          {
+            "name": "Amino Acids Blend",
+            "txt": "Essential for muscle repair, faster recovery, and optimized tissue regeneration."
+          },
+          {
+            "name": "Zinc and Selenium",
+            "txt": "Powerful minerals that fortify the immune system and promote skin healing."
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/iv-wellness-supreme"
+      },
+      {
+        "id": 13,
+        "category": "Wellness",
+        "img": "zeus-drip.webp",
+        "title": "Zeus Drip",
+        "price": 1299,
+        "desc": "Get your fertility game back on track with this Zeus Drip.",
+        "para1": "We live in a world full of toxins. When fertility issues arise, we have to look at the incubating system for the eggs and the sperm. Detoxing these systems and supporting them with essential vitamins can help the body reset itself and make for a fertile ground. When IVs are utilized with other healing modalities, fertility is possible. Sperm is highly sensitive to oxidative stress. The production of excessive amounts of free radicals contributes to the mechanism behind male factor infertility. Our Zeus Drip will help your body clear excessive free radicals + promote optimal fertilization while you plug and play.",
+        "para2": "The Zeus Drip contains Zinc, Selenium, Carnitine, 5 MTHF, Vitamin C and B 12. These are essential components in the IV Drip for fertility.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Reignite Your Fertility Journey",
+        "benifits": [
+          "Boosts energy and testosterone levels",
+          "Detoxifies body off free radicals",
+          "Boosts Immunity",
+          "Reduces Oxidative Damage",
+          "Promotes Fertility"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Poor diet"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Vitamin deficiencies"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Exposure to poor environment"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Zinc",
+            "txt": "Improves sperm quality"
+          },
+          {
+            "name": "Carnitine",
+            "txt": "Improves sperm motility"
+          },
+          {
+            "name": "Selenium",
+            "txt": "Reduces oxidative damage"
+          },
+          {
+            "name": "5 MTHF",
+            "txt": "Increases sperm concentration"
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/zeus-drip"
+      },
+      {
+        "id": 14,
+        "category": "Wellness",
+        "img": "queen-victoria-drip.webp",
+        "title": "Queen Victoria Drip",
+        "price": 999,
+        "desc": "Revitalize, Empower, Conceive: Elevate Your Fertility Journey with IV Therapy",
+        "para1": "For conception, your body requires a precise blend of vitamins and nutrients in order to function properly and protect the health of your internal environment. This can be a difficult goal to accomplish through diet and supplements alone. As a result, if you’re unknowingly deficient in certain vitamins, you can suffer from unexplained infertility, implantation failure, and recurrent miscarriage. Our Fertility Drip works by sending the vital nutrients you need directly into your blood stream, so your body receives them in their most potent and powerful form.",
+        "para2": "Our Queen Victoria Drip contains ingredients like 5MHTF, Megadose of Vitamin C, Rinoflavin, Magnesium, Vitamin B, Acetylcysteine and Zinc which are essential for conception and a healthy pregnancy.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Elevating Hope, Restoring Possibilities: Female Fertility IV Therapy for Your Journey Ahead",
+        "benifits": [
+          "Enhances fertility",
+          "Improves egg quality resulting in better quality embryos",
+          "Increased chances of a healthy pregnance",
+          "Restore vital vitamins and nutrients",
+          "Protect your cells from damage",
+          "Enhance your immune system",
+          "Create an internal environment optimal for coneption",
+          "Eliminate toxins that could be further impeding fertility"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Poor Diet"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Pre Conception"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Vitamin Deficiencies"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "5MTHF",
+            "txt": "Promotes methylation that attributes to positive conception outcomes"
+          },
+          {
+            "name": "Acetylcysteine",
+            "txt": "Supports the growth of healthy eggs and promotes ovulation"
+          },
+          {
+            "name": "Vitamin B6",
+            "txt": "Helps in the production of hormones that strengthen the uterine lining while increasing the chances of conception"
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/queen-victoria-drip"
+      },
+      {
+        "id": 15,
+        "category": "Wellness",
+        "img": "chelation-therapy.webp",
+        "title": "Chelation Therapy",
+        "price": 1299,
+        "desc": "Detoxify your body of heavy metals",
+        "para1": "More often than we realize, our bodies come across heavy metals such as lead, iron, arsenic, and mercury. These heavy metals can enter the bloodstream through pollution, water, food, air, and the environment. Especially in a highly developed place like United Arab Emirates, metal poisoning is common. Consequentially, we tend to suffer from chronic diseases due to the toxicity of these heavy metals. While most bodies have the capability of eliminating these toxic substances, others do not. This could be attributed to several reasons including existing medical conditions, poor diet, and cancerous tissues.",
+        "para2": "This is when IV Chelation Therapy in Dubai can be the ultimate solution.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Your Glow with Beauty Hub",
+        "benifits": [
+          "Gets rid of heavy metals from body",
+          "Reduces risks of developing cancer",
+          "Can reduce fatigue",
+          "Can lower Blood pressure",
+          "Can minimize cardiovascular risk",
+          "Alzheimer’s treatment",
+          "Can reduce pain and swelling",
+          "Effective Anti-aging treatment"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon9.png",
+            "txt": "Heavy Metal Poisoning"
+          }
+        ],
+        "extraData": [
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/chelation-therapy"
+      },
+      {
+        "id": 16,
+        "category": "Wellness",
+        "img": "performance-support.webp",
+        "title": "Performance Support",
+        "price": 1299,
+        "desc": "Unlock your muscle recovery potential with THE Amino Blend",
+        "para1": "Performance Support—a meticulously crafted amino blend designed to elevate your gym performance to unprecedented heights while offering comprehensive muscle recovery and an infusion of vitality, all while providing invaluable sexual support.",
+        "para2": "Harnessing the potent power of premium ingredients including L-carnitine, taurine, arginine, valine, lysine, and isoleucine, this groundbreaking formula is meticulously curated to synergistically enhance your physical prowess and stamina, ensuring every workout session is maximized to its fullest potential.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Ignites your energy reserve",
+        "benifits": [
+          "Elevates Gym Performance",
+          "Accelerates Muscle Recovery",
+          "Boosts Vitality and Sexual Support"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue"
+          },
+          {
+            "icon": "icon10.png",
+            "txt": "Muscle Loss"
+          },
+          {
+            "icon": "icon16.png",
+            "txt": "Muscle Soreness and Stiffness"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Post Vacation"
+          },
+          {
+            "icon": "icon13.png",
+            "txt": "Prolonged Recovery Time after Excercing"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "L-Carnitine",
+            "txt": "A hunger suppressing nutrient for weight loss that contributes to the transfer of longchain fatty acids into mitochondria for energy production."
+          },
+          {
+            "name": "Taurine",
+            "txt": "Plays a crucial role in enhancing athletic performance by reducing muscle fatigue and supporting overall muscle function and endurance."
+          },
+          {
+            "name": "Arginine",
+            "txt": "Arginine is renowned for its role in promoting vasodilation, which enhances blood flow and nutrient delivery to muscles during exercise, resulting in improved performance and faster recovery."
+          },
+          {
+            "name": "Valine, leucine, and isoleucine",
+            "txt": "Collectively known as branched-chain amino acids (BCAAs), are essential for muscle growth, repair, and recovery after intense exercise, aiding in the synthesis of protein and reducing muscle breakdown."
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/performance-support"
+      },
+      {
+        "id": 17,
+        "category": "Wellness",
+        "img": "royal-cleanse.webp",
+        "title": "Royal Cleanse",
+        "price": 1499,
+        "desc": "complete beauty package for your skin, hair and nails",
+        "para1": "Royal Cleanse, meticulously formulated to orchestrate a comprehensive detoxification journey that revitalizes your body from within. Delve into a holistic detox experience that targets not only the body but also rejuvenates the gut and invigorates the liver, leaving you feeling refreshed and rejuvenated.",
+        "para2": "Unlock the potent power of detoxifying superstars such as N-acetylcysteine (NAC) and glutathione, meticulously blended with the transformative properties of trimethylglycine (TMG), methylsulfonylmethane (MSM), and dimethyl sulfoxide (DMSO). Embrace the royal treatment your body deserves as our carefully curated concoction sweeps away toxins, restores balance, and leaves you radiating with newfound vitality.",
+        "discount": 20,
+        "benifitImg": null,
+        "benifits": [
+        ],
+        "benifitList": [
+        ],
+        "extraData": [  
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/royal-ccleanse"
+      },
+      {
+        "id": 18,
+        "category": "Recovery",
+        "img": "recovery-hub-anti-stress.webp",
+        "title": "Recovery Hub (Anti-Stress)",
+        "price": 999,
+        "desc": "Best for recovery, after a flu / illness or an injury and improves sleep patterns",
+        "para1": "Escape the tension of your fast-paced lifestyle with this recovery, sleep-supportive drip. RECOVERY HUB fights adrenal fatigue, eases anxiety levels, and recharges your battery with improved sleep quality.",
+        "para2": "Turn to RECOVERY HUB whenever you need additional support for recovering faster.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get On Your Feet With Recovery hub drip",
+        "benifits": [
+          "Helps your body unwind and recharge,",
+          "Fights symptoms of adrenal fatigue",
+          "Recharges your battery with improved sleep quality"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue"
+          },
+          {
+            "icon": "icon15.png",
+            "txt": "Sleep Deprived"
+          },
+          {
+            "icon": "icon13.png",
+            "txt": "Low Immunity"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Polluttant Exposure"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Mental Fog"
+          },
+          {
+            "icon": "icon14.png",
+            "txt": "Stress"
+          },
+          {
+            "icon": "icon11.png",
+            "txt": "Under the Weather"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Low Energy"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "1000ml+ of Lactated Ringer’s IV Solution",
+            "txt": "A simple but potent infusion of electrolyte hydration to help nurture you back to a happier, healthier state."
+          },
+          {
+            "name": "Thiamine Cocktail​",
+            "txt": "A potent cocktail of Thiamine designed to boost energy levels and flush aggravating toxins from your body."
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/recovery-hub-anti-stress"
+      },
+      {
+        "id": 19,
+        "category": "Recovery",
+        "img": "detox-drip.webp",
+        "title": "Detox Drip",
+        "price": 899,
+        "desc": "Severe Hangover, Illness and Jetlag",
+        "para1": "Still paying for last night? Even after the alcohol clears your system, it can stick around from 8 to 24 hours. Get your body and mind on the right path to feeling healthier with our POST PARTY HUB.",
+        "para2": "Electrolyte hydration combined with a powerful detoxifying ingredients, B12, B-Complex, Magnesium, and Vitamin C, finished with a push of Thiamine helps soothe nausea, dizziness and muscle pain, making this our #1 recovery drip.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Back On Your Feet with Post Party Hub Drip",
+        "benifits": [
+          "Replenishes electrolytes and dehydration levels with signature vitamin blend, boosts immunity, vitality",
+          "liver function and is great for food poisoning, dehydration, jet lag, and inflammation."
+        ],
+        "benifitList": [
+          {
+            "icon": "icon7.png",
+            "txt": "Terrible Hangovers"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Dehydration"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Low On Electrolytes"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Jet Lag"
+          },
+          {
+            "icon": "icon15.png",
+            "txt": "Nausea"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Low Energy"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "1000ml+ of Lactated Ringer’s IV Solution",
+            "txt": "A simple but potent infusion of electrolyte hydration to help nurture you back to a happier, healthier state."
+          },
+          {
+            "name": "Nausea Rx Medication",
+            "txt": "You know your body best. Your drip comes infused with 2 powerful prescription-strength medications to help relieve nausea"
+          },
+          {
+            "name": "Thiamine Cocktail",
+            "txt": "A potent cocktail of Thiamine designed to boost energy levels and flush aggravating toxins from your body."
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/detox-drip"
+      },
+      {
+        "id": 20,
+        "category": "Recovery",
+        "img": "hydration-hub-express.webp",
+        "title": "Hydration Hub Express",
+        "price": 299,
+        "desc": "For Dehydrated you",
+        "para1": "Cool your body’s dehydration with our Super infusion IV hydration drip. Hydration solution combined with electrolytes concoction helps augment dehydration and protect against toxins in the external and internal environment.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Back On Your Feet with IV hydration drip",
+        "benifits": [
+          "Replenishes hydration that are depleted by alcohol, food poisoning, or illness.",
+          "Highly beneficial for food poisoning & dehydration."
+        ],
+        "benifitList": [
+          {
+            "icon": "icon11.png",
+            "txt": "Under the Weather"
+          },
+          {
+            "icon": "icon15.png",
+            "txt": "Nausea"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Dehydration"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Pollutant Exposure"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Isotonic Solution",
+            "txt": "A simple but potent infusion of electrolyte hydration to help nurture you back to a happier, healthier state."
+          },
+          {
+            "name": "Electrolyte Cocktail",
+            "txt": "To help increase your natural energy and get you back to feeling functional."
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/hydration-hub-express"
+      },
+      {
+        "id": 21,
+        "category": "NAD+",
+        "img": "nad-100mg.webp",
+        "title": "NAD+ 100mg",
+        "price": 999,
+        "desc": "The ULTIMATE Drip for your Mind and Body!",
+        "para1": "Nicotinamide Adenine Dinucleotide (NAD) is one of the most essential molecules in our body, it is a coenzyme found in each of our living cells.",
+        "para2": "NAD is the cornerstone of maintaining healthy internal organs and a healthy neurological system. This IV therapy is a holistic, all-natural solution for those suffering from chronic disease and age-related health issues, and can boost overall wellness in healthy individuals. Through a standard drip, IV delivers NAD directly to your bloodstream, bypassing the gut for full absorption. For NAD, IV infusions are preferred over orally ingested alternatives because NAD is hard to process through the gastrointestinal tract.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Reverse the signs of aging",
+        "benifits": [
+          "General Wellness",
+          "DNA repair AND repairs damaged cells",
+          "Protects Brain Cells AND Improves Mental Health",
+          "Anti-Aging",
+          "Muscle Protection AND Reduce pain",
+          "Addiction Recovery",
+          "Enhances Athletic performance AND Weight loss",
+          "Improved Sleep Pattern"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon12.png",
+            "txt": "Natural Skin Glow"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Cellular Respiration & Mitochondria Health"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Youthful Energy"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Nicotinamide Adenine Dinucleotide",
+            "txt": "Increased energy, improved memory, lower blood pressure, and lowered cholesterol"
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/nad-plus-100mg"
+      },
+      {
+        "id":22,
+        "category": "NAD+",
+        "img": "nad-250mg.webp",
+        "title": "NAD+ 250mg",
+        "price": 2599,
+        "desc": "The ULTIMATE Drip for your Mind and Body!",
+        "para1": "Nicotinamide Adenine Dinucleotide (NAD) is one of the most essential molecules in our body, it is a coenzyme found in each of our living cells.",
+        "para2": "NAD is the cornerstone of maintaining healthy internal organs and a healthy neurological system. This IV therapy is a holistic, all-natural solution for those suffering from chronic disease and age-related health issues, and can boost overall wellness in healthy individuals. Through a standard drip, IV delivers NAD directly to your bloodstream, bypassing the gut for full absorption. For NAD, IV infusions are preferred over orally ingested alternatives because NAD is hard to process through the gastrointestinal tract.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Reverse the signs of aging",
+        "benifits": [
+          "General Wellness",
+          "DNA repair AND repairs damaged cells",
+          "Protects Brain Cells AND Improves Mental Health",
+          "Anti-Aging",
+          "Muscle Protection AND Reduce pain",
+          "Addiction Recovery",
+          "Enhances Athletic performance AND Weight loss",
+          "Improved Sleep Pattern"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon12.png",
+            "txt": "Natural Skin Glow"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Cellular Respiration & Mitochondria Health"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Youthful Energy"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Nicotinamide Adenine Dinucleotide",
+            "txt": "Increased energy, improved memory, lower blood pressure, and lowered cholesterol"
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/nad-plus-250mg"
+      },
+      {
+        "id": 23,
+        "category": "NAD+",
+        "img": "nad-500mg.webp",
+        "title": "NAD+ 500mg",
+        "price": 2599,
+        "desc": "The ULTIMATE Drip for your Mind and Body!",
+        "para1": "Nicotinamide Adenine Dinucleotide (NAD) is one of the most essential molecules in our body, it is a coenzyme found in each of our living cells.",
+        "para2": "NAD is the cornerstone of maintaining healthy internal organs and a healthy neurological system. This IV therapy is a holistic, all-natural solution for those suffering from chronic disease and age-related health issues, and can boost overall wellness in healthy individuals. Through a standard drip, IV delivers NAD directly to your bloodstream, bypassing the gut for full absorption. For NAD, IV infusions are preferred over orally ingested alternatives because NAD is hard to process through the gastrointestinal tract.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Reverse the signs of aging",
+        "benifits": [
+          "General Wellness",
+          "DNA repair AND repairs damaged cells",
+          "Protects Brain Cells AND Improves Mental Health",
+          "Anti-Aging",
+          "Muscle Protection AND Reduce pain",
+          "Addiction Recovery",
+          "Enhances Athletic performance AND Weight loss",
+          "Improved Sleep Pattern"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon12.png",
+            "txt": "Natural Skin Glow"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Cellular Respiration & Mitochondria Health"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Youthful Energy"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Nicotinamide Adenine Dinucleotide",
+            "txt": "Increased energy, improved memory, lower blood pressure, and lowered cholesterol"
+          }
+        ],
+        "bookingBtn": "/booking",
+        "moreDetailsUrl": "/iv-therapy/drips/nad-plus-500mg"
+      }
+    ]
+  }
+  
