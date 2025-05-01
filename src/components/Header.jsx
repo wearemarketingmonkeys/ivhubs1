@@ -23,7 +23,7 @@ const ivTherapyItems = [
       { dripsName: "Beauty Hub", dripsUrl: "/iv-therapy/drips/beauty-hub" },
       { dripsName: "Boost Hub", dripsUrl: "/iv-therapy/drips/boost-hub" },
       { dripsName: "Cleanse Hub", dripsUrl: "/iv-therapy/drips/cleanse-hub" },
-      { dripsName: "Enerygy Hub", dripsUrl: "/iv-therapy/drips/enerygy-hub" },
+      { dripsName: "Energy Hub", dripsUrl: "/iv-therapy/drips/energy-hub" },
       { dripsName: "Fitness Hub", dripsUrl: "/iv-therapy/drips/fitness-hub" },
       {
         dripsName: "Fitness Hub Express",
