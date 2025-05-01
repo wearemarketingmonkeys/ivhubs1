@@ -64,6 +64,10 @@ app.get("/iv-therapy/drips", (req, res) => {
   renderPage(req, res, "Drips | IV Wellness Lounge", "Tailored IV drip therapy for your well-being. Choose, schedule, consult, and rejuvenate. Feel your best with our personalized nutrient infusions.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
 });
 
+app.get("/iv-therapy/drips/beauty-hub", (req, res) => {
+  renderPage(req, res, "Beauty Hub | IV Therapy Drips | IV Wellness Lounge Dubai", "Enhance your well-being with Beauty Hub IV Drip at IV Wellness Lounge. Experience premium IV therapy in Dubai tailored for your health and vitality. Book now!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
 app.get("/iv-therapy/boosters", (req, res) => {
   renderPage(req, res, "Boosters | IV Wellness Lounge", "Elevate your well-being with our range of vitamin boosters. Choose from Vitamin C, Super B&#x27;s, CoQ10, MIC, and Vitamin D boosters to revitalize your body.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
 });
