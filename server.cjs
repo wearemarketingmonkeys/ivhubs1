@@ -160,6 +160,46 @@ app.get("/aesthetic", (req, res) => {
   renderPage(req, res, "Aesthetic Services | IV Wellness Lounge", "Experience our skin, body, and wellness treatments for a radiant summer. From microneedling to facial treatments, discover a range of options.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
 });
 
+app.get("/aesthetic/mesotherapy", (req, res) => {
+  renderPage(req, res, "Mesotherapy | Aesthetic Services | IV Wellness Lounge Dubai", "Revitalize your skin with Mesotherapy at IV Wellness Lounge. This microneedling treatment stimulates collagen and elastin production for tighter, youthful skin. Book your session today!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/aesthetic/prp", (req, res) => {
+  renderPage(req, res, "PRP Therapy | Aesthetic Services | IV Wellness Lounge Dubai", "Experience natural rejuvenation with PRP Therapy at IV Wellness Lounge. Using your own plasma, this treatment stimulates collagen, elastin, and hair follicle growth. Schedule your appointment now!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/aesthetic/hydra-facial", (req, res) => {
+  renderPage(req, res, "HydraFacial | Aesthetic Services | IV Wellness Lounge Dubai", "Refresh and nourish your skin with our signature HydraFacial at IV Wellness Lounge. Achieve a radiant glow and improved skin texture. Book your HydraFacial today!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/aesthetic/chemical-peel", (req, res) => {
+  renderPage(req, res, "Chemical Peel | Aesthetic Services | IV Wellness Lounge Dubai", "Reveal smoother, brighter skin with a Chemical Peel at IV Wellness Lounge. Suitable for all skin types, this treatment reduces pigmentation and acne scars. Schedule your peel now!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/aesthetic/anti-aging", (req, res) => {
+  renderPage(req, res, "Anti-Aging Treatments | Aesthetic Services | IV Wellness Lounge Dubai", "Combat signs of aging with our Anti-Aging treatments at IV Wellness Lounge. Reduce wrinkles and fine lines for a youthful appearance. Book your consultation today!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/aesthetic/dermal-fillers", (req, res) => {
+  renderPage(req, res, "Dermal Fillers | Aesthetic Services | IV Wellness Lounge Dubai", "Enhance your natural beauty with Dermal Fillers at IV Wellness Lounge. Restore volume and achieve a youthful look. Schedule your appointment now!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/aesthetic/skin-boosters", (req, res) => {
+  renderPage(req, res, "Skin Boosters | Aesthetic Services | IV Wellness Lounge Dubai", "Enhance your skin's radiance with Skin Boosters at IV Wellness Lounge. Achieve a hydrated and glowing complexion. Schedule your treatment now!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/aesthetic/lipo-sculpt", (req, res) => {
+  renderPage(req, res, "LipoSculpt | Aesthetic Services | IV Wellness Lounge Dubai", "Contour your body with LipoSculpt at IV Wellness Lounge. Target stubborn fat areas for a more defined silhouette. Book your consultation today!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/aesthetic/collagen-threads", (req, res) => {
+  renderPage(req, res, "Collagen Threads | Aesthetic Services | IV Wellness Lounge Dubai", "Rejuvenate your skin with Collagen Threads at IV Wellness Lounge. Stimulate natural collagen production for firmer skin. Schedule your appointment now!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/aesthetic/body-contouring", (req, res) => {
+  renderPage(req, res, "Body Contouring | Aesthetic Services | IV Wellness Lounge Dubai", "Achieve your desired body shape with Body Contouring at IV Wellness Lounge. Enhance your natural curves and confidence. Book your session today!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
 app.get("/contact-us", (req, res) => {
   renderPage(req, res, "Contact | IV Wellness Lounge", "Have questions or feedback? Feel free to contact us. Our team is here to assist you. Reach out today for prompt and friendly support.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
 });
