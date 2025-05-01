@@ -196,6 +196,10 @@ app.get("/aesthetic/collagen-threads", (req, res) => {
   renderPage(req, res, "Collagen Threads | Aesthetic Services | IV Wellness Lounge Dubai", "Rejuvenate your skin with Collagen Threads at IV Wellness Lounge. Stimulate natural collagen production for firmer skin. Schedule your appointment now!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
 });
 
+app.get("/aesthetic/collagen-stimulation", (req, res) => {
+  renderPage(req, res, "Collagen Stimulation | Aesthetic Services | IV Wellness Lounge Dubai", "Rejuvenate your skin with Collagen Threads at IV Wellness Lounge. Stimulate natural collagen production for firmer skin. Schedule your appointment now!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
 app.get("/aesthetic/body-contouring", (req, res) => {
   renderPage(req, res, "Body Contouring | Aesthetic Services | IV Wellness Lounge Dubai", "Achieve your desired body shape with Body Contouring at IV Wellness Lounge. Enhance your natural curves and confidence. Book your session today!", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
 });
