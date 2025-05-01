@@ -56,6 +56,27 @@ app.get("/packages", (req, res) => {
   renderPage(req, res, "Explore Packages", "IV Wellness Lounge is a premium wellness lounge offering aesthetic services and IV Infusion therapy with proven results, within your means.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
 });
 
+app.get("/explore-us/offers", (req, res) => {
+  renderPage(req, res, "Offers", "IV Wellness Lounge is a premium wellness lounge offering aesthetic services and IV Infusion therapy with proven results, within your means.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/iv-therapy/drips", (req, res) => {
+  renderPage(req, res, "Drips | IV Wellness Lounge", "Tailored IV drip therapy for your well-being. Choose, schedule, consult, and rejuvenate. Feel your best with our personalized nutrient infusions.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/iv-therapy/boosters", (req, res) => {
+  renderPage(req, res, "Boosters | IV Wellness Lounge", "Elevate your well-being with our range of vitamin boosters. Choose from Vitamin C, Super B&#x27;s, CoQ10, MIC, and Vitamin D boosters to revitalize your body.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/aesthetic", (req, res) => {
+  renderPage(req, res, "Aesthetic Services | IV Wellness Lounge", "Experience our skin, body, and wellness treatments for a radiant summer. From microneedling to facial treatments, discover a range of options.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/contact-us", (req, res) => {
+  renderPage(req, res, "Contact | IV Wellness Lounge", "Have questions or feedback? Feel free to contact us. Our team is here to assist you. Reach out today for prompt and friendly support.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+
 // Fallback for all other SPA routes
 app.use((req, res) => {
   renderPage(req, res, "IV Wellness Lounge | Premium IV Therapy & Aesthetic Services Dubai", "IV Wellness Lounge is a premium wellness lounge offering aesthetic services and IV Infusion therapy with proven results, within your means.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
