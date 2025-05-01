@@ -52,6 +52,10 @@ app.get("/about-us", (req, res) => {
   renderPage(req, res, "Who We Are", "Your partner for safe and effective beauty &amp; wellness. We demystify cosmetic dermatology through medically-tested procedures for natural results.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
 });
 
+app.get("/packages", (req, res) => {
+  renderPage(req, res, "Explore Packages", "IV Wellness Lounge is a premium wellness lounge offering aesthetic services and IV Infusion therapy with proven results, within your means.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
 // Fallback for all other SPA routes
 app.use((req, res) => {
   renderPage(req, res, "IV Wellness Lounge | Premium IV Therapy & Aesthetic Services Dubai", "IV Wellness Lounge is a premium wellness lounge offering aesthetic services and IV Infusion therapy with proven results, within your means.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
