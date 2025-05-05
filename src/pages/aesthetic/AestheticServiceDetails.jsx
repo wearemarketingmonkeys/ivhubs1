@@ -32,7 +32,7 @@ const AestheticServiceDetails = () => {
     const intervalId = setInterval(() => {
       const randomIndex = Math.floor(Math.random() * strings.length);
       setRandomString(strings[randomIndex]);
-    }, 2000);
+    }, 1000);
 
     return () => {
       clearInterval(intervalId);
