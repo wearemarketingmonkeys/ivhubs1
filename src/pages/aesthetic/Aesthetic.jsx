@@ -28,11 +28,11 @@ const Aesthetic = () => {
 
   return (
     <div className="aesthetic">
-      <HeroSection
+      {/* <HeroSection
         textItalic1={"Aesthetic"}
         textLight2={"Services"}
         img={aestheticHero}
-      />
+      /> */}
       <div className="hero-bottom">
         <div className="container">
           <div className="hero-bottom-wrap">

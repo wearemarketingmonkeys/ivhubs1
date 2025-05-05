@@ -377,7 +377,7 @@
           ]
         }
       ],
-      "resultTxt": "You can expect an overall improvement of the texture and tone of the skin, tightening, and increased reflectivity of light.",
+      "resultTxt": "After a chemical peel, you can expect brighter, smoother skin with improved texture, reduced pigmentation, and a more even complexion as dead skin cells are exfoliated and new skin regenerates.",
       "beforeImg": "IMG_2968before.webp",
       "afterImg": "IMG_2969after.webp",
       "treatments": [
@@ -507,12 +507,12 @@
           ]
         }
       ],
-      "resultTxt": "You can expect an overall improvement of the texture and tone of the skin, tightening, and increased reflectivity of light.",
+      "resultTxt": "After Botox, you can expect smoother, more youthful-looking skin with reduced appearance of fine lines and wrinkles, typically visible within 3 to 7 days.",
       "beforeImg": "botox-before.webp",
       "afterImg": "botox-after.webp",
       "treatments": [
         {
-          "category": "Anti Wrinkle (129/Unit)",
+          "category": "Women Wrinkle Relaxers (129/Unit)",
           "services": [
             {
               "name": "Upper Face",
