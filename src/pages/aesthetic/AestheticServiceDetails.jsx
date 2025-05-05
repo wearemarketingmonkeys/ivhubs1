@@ -17,6 +17,28 @@ const AestheticServiceDetails = () => {
   const [aestheticsService, setAestheticsService] = useState([]);
   const videoRef = useRef(null);
 
+  // Example: get first aesthetic as current aesthetic
+  const currentAesthetic = aestheticData[0]; // or any other logic to get this
+  const subHeading = currentAesthetic?.subHeading || "";
+
+  // Split subHeading into strings array
+  const strings = subHeading.split("|").map(str => str.trim());
+
+  const [randomString, setRandomString] = useState("");
+
+  useEffect(() => {
+    if (!strings.length) return;
+
+    const intervalId = setInterval(() => {
+      const randomIndex = Math.floor(Math.random() * strings.length);
+      setRandomString(strings[randomIndex]);
+    }, 2000);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, [strings]);
+
   useEffect(() => {
     const video = videoRef.current;
     if (video) {
@@ -166,6 +188,9 @@ const AestheticServiceDetails = () => {
       </div>
       <div className="pre-post">
         <div className="container">
+          <div>
+            <p>{randomString}</p>
+          </div>
           <div className="pre-post-wrap">
             <Accordion allowZeroExpanded>
               {service.treatmentsTips.map((x, index) => (
