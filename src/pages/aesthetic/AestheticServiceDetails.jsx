@@ -17,11 +17,11 @@ const AestheticServiceDetails = () => {
   const [aestheticsService, setAestheticsService] = useState([]);
   const videoRef = useRef(null);
 
-  // Example: get first aesthetic as current aesthetic
-  const currentAesthetic = aestheticData[0]; // or any other logic to get this
+  // FIXED: aestheticData is inside aestheticDataFile.aestheticData
+  const currentAesthetic = aestheticData.aestheticData[0];
   const subHeading = currentAesthetic?.subHeading || "";
 
-  // Split subHeading into strings array
+  // Split subHeading into array
   const strings = subHeading.split("|").map(str => str.trim());
 
   const [randomString, setRandomString] = useState("");
