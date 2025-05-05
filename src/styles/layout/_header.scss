@@ -375,7 +375,10 @@
 }
 
 .randomstrings p{
-  font-size: 40px;
+  font-size: 50px;
   line-height: 2;
   margin: 20px auto;
+  @include mixin.respond(sm) {
+    font-size: 25px;
+  }
 }
