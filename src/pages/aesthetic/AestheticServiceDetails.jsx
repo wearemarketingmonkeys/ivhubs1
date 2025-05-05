@@ -188,7 +188,7 @@ const AestheticServiceDetails = () => {
       </div>
       <div className="pre-post">
         <div className="container">
-          <div>
+          <div className="randomstrings">
             <p>{randomString}</p>
           </div>
           <div className="pre-post-wrap">
