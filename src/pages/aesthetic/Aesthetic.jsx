@@ -53,9 +53,9 @@ const Aesthetic = () => {
               <Link to={"/booking"} className="btn btn-light-stroke">
                 Book Now
               </Link>
-              <Link to={"/"} className="btn btn-stroke-white">
+              {/* <Link to={"/"} className="btn btn-stroke-white">
                 Membership plan
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

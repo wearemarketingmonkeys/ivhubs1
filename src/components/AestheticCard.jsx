@@ -22,10 +22,13 @@ const AestheticCard = ({
 
   return (
     <div className="aesthetic-card">
-      <div className="aesthetic-card__image">
+      {/* <div className="aesthetic-card__image">
         <img src={img} alt={title} />
         <h3 className="aesthetic-card__title">{title}</h3>
-      </div>
+      </div> */}
+
+      <h1 className="aesthetic-card__title">{title}</h1>
+      <hr/>
 
       <div className="aesthetic-card__content">
         <div className="aesthetic-card__header" onClick={toggleExpand}>

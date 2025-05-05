@@ -916,8 +916,8 @@
         {
           "category": "Book Your Session",
           "services": [
-            { "name": "Sculptra®", "price": 2400 },
-            { "name": "Radiesse®", "price": 3199 }
+            { "name": "Sculptra®", "price": 3299 },
+            { "name": "Radiesse®", "price": 2499 }
           ]
         }
       ],
