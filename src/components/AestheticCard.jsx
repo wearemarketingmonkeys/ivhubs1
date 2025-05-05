@@ -68,7 +68,7 @@ const AestheticCard = ({
                     <span>|</span>
                     <span>Starting At AED{startingAmount}</span>
                 </div>
-                <p className="discount"><strong>{discount}% discount on 3 or more sessions</strong></p>
+                {/* <p className="discount"><strong>{discount}% discount on 3 or more sessions</strong></p> */}
             </div>
             <div className="btn-wrap">
               <Link to={"/booking"} className="btn">
