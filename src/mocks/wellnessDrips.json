@@ -49,20 +49,20 @@
         ],
         "extraData": [
           {
+            "name": "Vitamin C",
+            "txt": "Boosts Collagen Production, Fights Free Radical Damage, Heals and Repairs the Skin"
+          },
+          {
+            "name": "Biotin",
+            "txt": "Supports Hair Health and Growth, Metabolism and Energy Production, Improves and Strengthens Nails"
+          },
+          {
             "name": "N-Acetylcysteine",
-            "txt": "Replenishes glutathione levels in the body"
-          },
-          {
-            "name": "ALPHA LIOPIC ACID",
-            "txt": "Reduce inflammation and skin aging"
-          },
-          {
-            "name": "SELENIUM",
-            "txt": "Promotes hair growth and hair regrowth by killing harmful free radicals."
+            "txt": "Support for glutathione production, Skin Detoxification, Healing, and Repair of Skin Damage."
           },
           {
             "name": "Glutathione",
-            "txt": "Shielding skin cells from free radical damage, reducing hyperpigmentation, and promoting anti-aging benefits."
+            "txt": "Detoxification, Skin Health and Radiance, Anti-Aging Benefits"
           }
         ],
         "bookingBtn": "/booking",
@@ -102,15 +102,15 @@
         "extraData": [
           {
             "name": "Iron",
-            "txt": "Helps in the synthesis of Red Blood Cells"
+            "txt": "Energy production, immune function, and overall cellular function."
           },
           {
-            "name": "B12 & Ascorbic acid",
-            "txt": "Help in the absorption of Iron"
+            "name": "Vitamin D",
+            "txt": "Bone Health, Immune Support, Muscle Strength &amp; Performance"
           },
           {
-            "name": "Folic Acid",
-            "txt": "Works with iron to produce Red Blood Cells"
+            "name": "Vitamin B6",
+            "txt": "Blood health, metabolism, nerve function, and immune support."
           }
         ],
         "bookingBtn": "/booking",
@@ -170,16 +170,16 @@
         ],
         "extraData": [
           {
-            "name": "N-Acetylcysteine",
-            "txt": "Replenishes glutathione levels in the body"
+            "name": "DMSO",
+            "txt": "Anti-inflammatory, analgesic, and solvent properties"
           },
           {
-            "name": "MAGNESIUM CHLORIDE",
-            "txt": "Reduce inflammation and skin aging"
+            "name": "MSM",
+            "txt": "Muscle Recovery, Anti-inflammatory, Detoxification"
           },
           {
-            "name": "THIAMINE HCL (VIT.B1)",
-            "txt": "Prevents complications in the nervous system, brain, muscles, heart, stomach, and intestines."
+            "name": "L-Glutamine",
+            "txt": "Protein synthesis, muscle recovery, and immune system support"
           }
         ],
         "bookingBtn": "/booking",
@@ -282,20 +282,16 @@
         ],
         "extraData": [
           {
-            "name": "Methionine",
-            "txt": "An essential amino acid that must be consumed through supplement (or 100% bioavailability IV infusion) that assists with breaking down fat cells within the liver, and eliminates fat deposits. Methionine also improves skin tone and elasticity, nails, hair, and cardiovascular and muscular functions, through its role in the production of creatine."
+            "name": "Coq10",
+            "txt": "Enhances cellular energy (ATP) and muscle recovery"
           },
           {
-            "name": "Inositol",
-            "txt": "A b-vitamin used for breaking down fats, promoting the health of cell structures, reduces blood cholesterol and controls mood and appetite. Inositol is also helpful in treating depression, panic disorder and fatty liver, and is most effective through intravenous infusion."
+            "name": "Vitamin D",
+            "txt": "Bone Health, Immune Support, Muscle Strength &amp; Performance"
           },
           {
-            "name": "Choline",
-            "txt": "An essential nutrient that supports the liver in processing and excretion of chemical waste. Choline also supports the metabolism of fats and cholesterol."
-          },
-          {
-            "name": "L-Carnitine",
-            "txt": "A hunger suppressing nutrient for weight loss that contributes to the transfer of longchain fatty acids into mitochondria for energy production."
+            "name": "Taurine",
+            "txt": "Improves exercise performance, reduces oxidative stress, aids recovery"
           }
         ],
         "bookingBtn": "/booking",
@@ -342,20 +338,16 @@
         ],
         "extraData": [
           {
-            "name": "Methionine",
-            "txt": "An essential amino acid that must be consumed through supplement (or 100% bioavailability IV infusion) that assists with breaking down fat cells within the liver, and eliminates fat deposits. Methionine also improves skin tone and elasticity, nails, hair, and cardiovascular and muscular functions, through its role in the production of creatine."
+            "name": "Coq10",
+            "txt": "Enhances cellular energy (ATP) and muscle recovery"
           },
           {
-            "name": "Inositol",
-            "txt": "A b-vitamin used for breaking down fats, promoting the health of cell structures, reduces blood cholesterol and controls mood and appetite. Inositol is also helpful in treating depression, panic disorder and fatty liver, and is most effective through intravenous infusion."
+            "name": "Vitamin D",
+            "txt": "Bone Health, Immune Support, Muscle Strength &amp; Performance"
           },
           {
-            "name": "Choline",
-            "txt": "An essential nutrient that supports the liver in processing and excretion of chemical waste. Choline also supports the metabolism of fats and cholesterol."
-          },
-          {
-            "name": "L-Carnitine",
-            "txt": "A hunger suppressing nutrient for weight loss that contributes to the transfer of longchain fatty acids into mitochondria for energy production."
+            "name": "Taurine",
+            "txt": "Improves exercise performance, reduces oxidative stress, aids recovery"
           }
         ],
         "bookingBtn": "/booking",
@@ -410,11 +402,15 @@
         "extraData": [
           {
             "name": "Alpha Lipoic Acid",
-            "txt": "Reduces inflammation and skin aging also helps with regeneration of new skin cells"
+            "txt": "Heals and Repairs the Skin, Fights Hyperpigmentation, Improves Skin Texture and Smoothness"
           },
           {
-            "name": "Gamma-L-glutamyl-L-cysteinylglycine",
-            "txt": "Gamma-L-glutamyl-L-cysteinylglycine are instrumental in the growth, development, and repair of all body tissues. Also, referred to as a “Master Antioxidant”"
+            "name": "Glutathione",
+            "txt": "GamDetoxification, Skin Health and Radiance, Anti-Aging Benefits"
+          },
+          {
+            "name": "Vitamin C",
+            "txt": "Boosts Collagen Production, Fights Free Radical Damage, Heals and Repairs the Skin"
           }
         ],
         "bookingBtn": "/booking",
@@ -469,11 +465,15 @@
         "extraData": [
           {
             "name": "Alpha Lipoic Acid",
-            "txt": "Reduces inflammation and skin aging also helps with regeneration of new skin cells"
+            "txt": "Heals and Repairs the Skin, Fights Hyperpigmentation, Improves Skin Texture and Smoothness"
           },
           {
-            "name": "Gamma-L-glutamyl-L-cysteinylglycine",
-            "txt": "Gamma-L-glutamyl-L-cysteinylglycine are instrumental in the growth, development, and repair of all body tissues. Also, referred to as a “Master Antioxidant”"
+            "name": "Glutathione",
+            "txt": "GamDetoxification, Skin Health and Radiance, Anti-Aging Benefits"
+          },
+          {
+            "name": "Vitamin C",
+            "txt": "Boosts Collagen Production, Fights Free Radical Damage, Heals and Repairs the Skin"
           }
         ],
         "bookingBtn": "/booking",
