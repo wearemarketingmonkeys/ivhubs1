@@ -648,16 +648,16 @@
         ],
         "extraData": [
           {
-            "name": "IRON lll HYDEROXIDE SUCROSE",
-            "txt": "Maintains the iron level in the blood."
+            "name": "Iron",
+            "txt": "Energy production, immune function, and overall cellular function"
           },
           {
-            "name": "ALPHA LIOPIC ACID",
-            "txt": "Reduce inflammation and skin aging, lowers heart disease risk factors, and increase bone density."
+            "name": "Vitamin B Complex",
+            "txt": "Energy production, boosts circulation, stress support, Red blood cell production, hormone balance"
           },
           {
-            "name": "THIAMINE HCI ( VIT. B1)",
-            "txt": "Prevents complications in the nervous system, brain, muscles, heart, stomach, and intestines."
+            "name": "Vitamin D",
+            "txt": "Bone Health, Immune Support, Muscle Strength &amp; Performance"
           }
         ],
         "bookingBtn": "/booking",
@@ -777,20 +777,16 @@
         ],
         "extraData": [
           {
+            "name": "ALA",
+            "txt": "Improves Sperm Quality, Boosts Testosterone"
+          },
+          {
             "name": "Zinc",
-            "txt": "Improves sperm quality"
+            "txt": "Powering fertility, immunity, and peak male performance"
           },
           {
-            "name": "Carnitine",
-            "txt": "Improves sperm motility"
-          },
-          {
-            "name": "Selenium",
-            "txt": "Reduces oxidative damage"
-          },
-          {
-            "name": "5 MTHF",
-            "txt": "Increases sperm concentration"
+            "name": "COQ10",
+            "txt": "DNA Protection, Boosts Sperm Quality"
           }
         ],
         "bookingBtn": "/booking",
@@ -834,16 +830,16 @@
         ],
         "extraData": [
           {
-            "name": "5MTHF",
-            "txt": "Promotes methylation that attributes to positive conception outcomes"
+            "name": "ALA",
+            "txt": "Improves Egg Quality, Supports Mitochondrial Function"
           },
           {
-            "name": "Acetylcysteine",
-            "txt": "Supports the growth of healthy eggs and promotes ovulation"
+            "name": "Magnesium",
+            "txt": "PoweRelieves stress, improves sleep, reduces PMS symptoms"
           },
           {
-            "name": "Vitamin B6",
-            "txt": "Helps in the production of hormones that strengthen the uterine lining while increasing the chances of conception"
+            "name": "COQ10",
+            "txt": "Skin repair, energy production, Reduces Oxidative Stress"
           }
         ],
         "bookingBtn": "/booking",
@@ -957,7 +953,19 @@
         ],
         "benifitList": [
         ],
-        "extraData": [  
+        "extraData": [
+          {
+            "name": "Glutathione",
+            "txt": "Master antioxidant; detoxifies the liver, supports skin brightening, and reduces oxidative stress"
+          },
+          {
+            "name": "DMSO​",
+            "txt": "Cellular Penetration, Reduces Oxidative Stress"
+          },
+          {
+            "name": "MSM",
+            "txt": "Supports detox pathways, Strengthens gut lining, Antioxidant support"
+          }  
         ],
         "bookingBtn": "/booking",
         "moreDetailsUrl": "/iv-therapy/drips/royal-cleanse"
@@ -1015,12 +1023,16 @@
         ],
         "extraData": [
           {
-            "name": "1000ml+ of Lactated Ringer’s IV Solution",
-            "txt": "A simple but potent infusion of electrolyte hydration to help nurture you back to a happier, healthier state."
+            "name": "Zinc",
+            "txt": "Enhances immunity and aids in tissue healing"
           },
           {
-            "name": "Thiamine Cocktail​",
-            "txt": "A potent cocktail of Thiamine designed to boost energy levels and flush aggravating toxins from your body."
+            "name": "Magnesium Sulfate",
+            "txt": "Relieves muscle cramps, calms the nervous system, and reduces fatigue"
+          },
+          {
+            "name": "Glutamine",
+            "txt": "Support cognitive function and mood stabilization"
           }
         ],
         "bookingBtn": "/booking",
@@ -1070,16 +1082,16 @@
         ],
         "extraData": [
           {
-            "name": "1000ml+ of Lactated Ringer’s IV Solution",
-            "txt": "A simple but potent infusion of electrolyte hydration to help nurture you back to a happier, healthier state."
+            "name": "500 ml RL",
+            "txt": "Restore Electrolyte balance, increases urine production, leading to dehydration"
           },
           {
-            "name": "Nausea Rx Medication",
-            "txt": "You know your body best. Your drip comes infused with 2 powerful prescription-strength medications to help relieve nausea"
+            "name": "Glutathione",
+            "txt": "Master antioxidant; detoxifies the liver, supports skin brightening, and reduces oxidative stress"
           },
           {
-            "name": "Thiamine Cocktail",
-            "txt": "A potent cocktail of Thiamine designed to boost energy levels and flush aggravating toxins from your body."
+            "name": "Thiamine HCL",
+            "txt": "Helps replenish thiamine levels depleted by alcohol, as alcohol disrupts its absorption and use"
           }
         ],
         "bookingBtn": "/booking",
