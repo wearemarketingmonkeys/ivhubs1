@@ -84,7 +84,7 @@ const Aesthetic = () => {
                   <AestheticCard
                     img={x.img}
                     title={x.title}
-                    subHeading={randomSubHeadings[x.id] || ""} {/* Pass random subheading here */}
+                    subHeading={randomSubHeadings[x.id] || ""}
                     desc={x.desc}
                     howItWorks={x.howItWorks}
                     treatableArea={x.treatableArea}
