@@ -7,12 +7,12 @@ import AestheticCard from "../../components/AestheticCard";
 
 const Aesthetic = () => {
   const [aesthetics, setAesthetics] = useState([]);
+  const [randomSubHeadings, setRandomSubHeadings] = useState({});
 
   const images = import.meta.glob("../../assets/img/aesthetic/*.webp", {
     eager: true,
   });
   const icons = import.meta.glob("../../assets/img/aesthetic/*.png", { eager: true });
-  /* for images including PNG and WebP */
 
   useEffect(() => {
     const updatedAesthetic = aestheticData.aestheticData.map((aesthetic) => ({
@@ -26,20 +26,35 @@ const Aesthetic = () => {
     setAesthetics(updatedAesthetic);
   }, []);
 
+  // Random subheading rotation logic
+  useEffect(() => {
+    const updateRandomSubHeadings = () => {
+      const newRandoms = {};
+      aesthetics.forEach((aesthetic) => {
+        const subHeadingsArray = aesthetic.subHeading?.split("|").map(str => str.trim()) || [];
+        if (subHeadingsArray.length > 0) {
+          const randomIndex = Math.floor(Math.random() * subHeadingsArray.length);
+          newRandoms[aesthetic.id] = subHeadingsArray[randomIndex];
+        }
+      });
+      setRandomSubHeadings(newRandoms);
+    };
+
+    if (aesthetics.length > 0) {
+      updateRandomSubHeadings(); // Initial random subheadings
+      const intervalId = setInterval(updateRandomSubHeadings, 2000);
+      return () => clearInterval(intervalId);
+    }
+  }, [aesthetics]);
+
   return (
     <div className="aesthetic">
-      {/* <HeroSection
-        textItalic1={"Aesthetic"}
-        textLight2={"Services"}
-        img={aestheticHero}
-      /> */}
       <div className="hero-bottom">
         <div className="container">
           <div className="hero-bottom-wrap">
             <div className="">
               <h1>
-                Rediscover Your Natural Beauty <br /> with Our Advanced
-                Aesthetic Treatments
+                Rediscover Your Natural Beauty <br /> with Our Advanced Aesthetic Treatments
               </h1>
               <p>
                 At IV Wellness, we believe in enhancing your natural beauty
@@ -53,9 +68,6 @@ const Aesthetic = () => {
               <Link to={"/booking"} className="btn btn-light-stroke">
                 Book Now
               </Link>
-              {/* <Link to={"/"} className="btn btn-stroke-white">
-                Membership plan
-              </Link> */}
             </div>
           </div>
         </div>
@@ -72,7 +84,7 @@ const Aesthetic = () => {
                   <AestheticCard
                     img={x.img}
                     title={x.title}
-                    subHeading={x.subHeading}
+                    subHeading={randomSubHeadings[x.id] || ""} {/* Pass random subheading here */}
                     desc={x.desc}
                     howItWorks={x.howItWorks}
                     treatableArea={x.treatableArea}

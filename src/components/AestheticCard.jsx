@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const AestheticCard = ({
@@ -16,41 +16,23 @@ const AestheticCard = ({
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  // NEW: split subHeading into array
-  const strings = subHeading?.split("|").map(str => str.trim()) || [];
-
-  // NEW: store random subheading text
-  const [randomSubHeading, setRandomSubHeading] = useState("");
-
-  useEffect(() => {
-    if (!strings.length) return;
-
-    // Set first string immediately
-    setRandomSubHeading(strings[0]);
-
-    const intervalId = setInterval(() => {
-      const randomIndex = Math.floor(Math.random() * strings.length);
-      setRandomSubHeading(strings[randomIndex]);
-    }, 2000);
-
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, [strings]);
-
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
   };
 
   return (
     <div className="aesthetic-card">
+      {/* <div className="aesthetic-card__image">
+        <img src={img} alt={title} />
+        <h3 className="aesthetic-card__title">{title}</h3>
+      </div> */}
+
       <h1 className="aesthetic-card__title">{title}</h1>
-      <hr />
+      <hr/>
 
       <div className="aesthetic-card__content">
         <div className="aesthetic-card__header" onClick={toggleExpand}>
-          {/* RANDOM SUBHEADING */}
-          <h3 className="aesthetic-card__sub-title">{randomSubHeading}</h3>
+          <h3 className="aesthetic-card__sub-title">{subHeading}</h3>
           <p>{desc}</p>
           <button className="aesthetic-card__toggle">
             {isExpanded ? "−" : "+"}
@@ -81,11 +63,12 @@ const AestheticCard = ({
               </div>
             </div>
             <div className="duration-cost-wrap">
-              <div className="duration-cost">
-                <span>{duration} Min Duration</span>
-                <span>|</span>
-                <span>Starting At AED{startingAmount}</span>
-              </div>
+                <div className="duration-cost">
+                    <span>{duration} Min Duration</span>
+                    <span>|</span>
+                    <span>Starting At AED{startingAmount}</span>
+                </div>
+                {/* <p className="discount"><strong>{discount}% discount on 3 or more sessions</strong></p> */}
             </div>
             <div className="btn-wrap">
               <Link to={"/booking"} className="btn">
