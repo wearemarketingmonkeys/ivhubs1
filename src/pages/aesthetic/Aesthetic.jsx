@@ -42,7 +42,7 @@ const Aesthetic = () => {
 
     if (aesthetics.length > 0) {
       updateRandomSubHeadings(); // Initial random subheadings
-      const intervalId = setInterval(updateRandomSubHeadings, 2000);
+      const intervalId = setInterval(updateRandomSubHeadings, 1500);
       return () => clearInterval(intervalId);
     }
   }, [aesthetics]);
