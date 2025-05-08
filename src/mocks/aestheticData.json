@@ -85,7 +85,7 @@
           ]
         }
       ],
-      "resultTxt": "You can expect an overall improvement of the texture and tone of the skin, tightening, and increased reflectivity of light.",
+      "resultTxt": "With four sessions of microneedling performed over four months, you can expect a significant improvement in skin texture and tone, reduction in pigmentation, enhanced firmness and tightening, and increased skin radiance",
       "beforeImg": "mesobefore.webp",
       "afterImg": "mesoafter.webp",
       "treatments": [
@@ -231,7 +231,11 @@
             {
               "name": "Scalp Hydrafacial",
               "price": 799
-            }
+            },
+            {
+              "name": "Forma Hollywood Lift",
+              "price": 1299
+            } 
           ]
         },
         {
@@ -829,10 +833,6 @@
         {
           "question": "Can I receive dermal fillers while pregnant or nursing?",
           "answer": "Can I receive dermal fillers while pregnant or nursing?"
-        },
-        {
-          "question": "What brand of fillers do you offer?",
-          "answer": "Juvederm and Restylane. Best known brands in the market."
         }
       ]
     },
@@ -916,7 +916,7 @@
         {
           "category": "Book Your Session",
           "services": [
-            { "name": "Sculptra®", "price": 3299 },
+            { "name": "Sculptra®", "price": 3199 },
             { "name": "Radiesse®", "price": 2499 }
           ]
         }
@@ -1081,11 +1081,11 @@
           "services": [
             {
               "name": "1 Session",
-              "price": 2999
+              "price": 1499
             },
             {
               "name": "2 Sessions",
-              "price": 5399
+              "price": 2799
             }
           ]
         },
@@ -1099,6 +1099,15 @@
             {
               "name": "Sunekos1200 - 2 Sessions",
               "price": 3099
+            }
+          ]
+        },
+        {
+          "category": "Custom Skin Booster",
+          "services": [
+            {
+              "name": "Starts From",
+              "price": 599
             }
           ]
         }
