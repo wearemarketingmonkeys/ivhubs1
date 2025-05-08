@@ -25,7 +25,8 @@ const IvPackageCard = ({ img, title, descBrif, descUl, newBadge }) => {
 
         {isExpanded && (
           <div className="ivPackage-card__details">
-            <p>{descBrif}</p>
+            {/* <p>{descBrif}</p> */}
+            <div dangerouslySetInnerHTML={{ __html: descBrif }} />
             <ul>
               <ul>
                 {descUl.map((item, index) => (
