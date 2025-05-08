@@ -160,7 +160,7 @@ const AestheticServiceDetails = () => {
               </div>
               {service?.othertext ? (
                   // Render the content from service.othertext
-                  <div dangerouslySetInnerHTML={{ __html: service.othertext }} />
+                  <h2 dangerouslySetInnerHTML={{ __html: service.othertext }} />
                 ) : (
                   // Render the default Price & Package section
                   <div className="pricesection">
