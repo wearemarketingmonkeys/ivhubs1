@@ -4,22 +4,8 @@
         "img": "ivPackage1.webp",
         "title": "Acne Package",
         "desc": {
-          "brif": "Our Acne Treatment Package is designed to address the root causes of acne through a multi-faceted, personalized approach. Here’s what you can expect:",
+          "brif": "<div class='packagedetails'><h2>AED 4,000 (Valued at AED 5,400)</h2><p>Reveal a confident, blemish-free complexion through a curated blend of science-backed treatments and holistic care.</p><hr><h2>What’s Included</h2><br><ol><li><b>1. Expert Skin Consultation : </b> In-depth skin analysis with a medical aesthetician Full review of diet, lifestyle, hormone history &amp; skincare regimen (bring your products) Custom acne treatment plan designed to suit your skin’s unique needs</li><li><b>2. In-Clinic Treatments (Tailored Based on Severity and Skin Type) : </b> Up to 2 Chemical Peels (Salicylic or Customized Medical Peels), 2 Acne Hydrafacials, 2 LED Light Therapy Sessions (Blue Light), 3 PRP Treatments, 2 IV Drips (Detox or Skin Glow)</li></ol><br><h4>Add-On Options (Preferential Pricing for Package Clients):</h4><p>- Medical Grade Skincare at 20% off</p><p>- Additional PRP or Peels at 15% off</p><p>- Hormonal panel testing or nutritionist session</p><hr><h2>Why This Works</h2><br><p>This comprehensive program tackles acne at every level—surface, hormonal, bacterial, and lifestyle. Whether your acne is stress-induced, hormonal, or chronic, this package is designed to reset your skin, repair damage, and build long-term clarity and confidence.</p><a href='https://api.whatsapp.com/send/?phone=97180048482&amp;text=Hello&amp;type=phone_number&amp;app_absent=0' class='main-btn btn'>Continue to Booking</a></div>",
           "ul": [
-            {
-              "liTitle": "Consultation with expert – to prepare pathology and the complicated multi-faceted treatment"
-            },
-            {
-              "liTitle": "Full review of diet, lifestyle, and current face care routine (bring your products)"
-            },
-            {
-              "liTitle": "Complete package offering including based on the needs of the person – Price is $3,000 for the package value $3600:",
-              "subLi": [
-                "Up to 8 BBL treatments",
-                "Up to 3 chemical peels",
-                "Up to 2 products from our boutique"
-              ]
-            }
           ]
         },
         "bookingBtn": "/booking",
