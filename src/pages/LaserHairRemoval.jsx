@@ -203,6 +203,9 @@ const LaserHairRemoval = () => {
                   <strong>AED 9,999</strong>
                 </i>
               </p>
+              <div>
+                <h2>Pricing Starts From 119 AED</h2>
+              </div>
               <div className="description">
                 Remove unwanted hair with the Most Efficient, Painless, Safe for
                 all skin SOPRANO TITANIUM.
@@ -226,9 +229,7 @@ const LaserHairRemoval = () => {
                 </p>
                 <p>All Skin Types & Tones | Darker Hair | Melanin-Rich Skin</p>
               </div>
-              <div>
-                <h2>Pricing Starts From 119 AED</h2>
-              </div>
+              
               <div className="btn-wrap">
                 <Link to={"/booking"} className="btn">
                   BOOK Now
