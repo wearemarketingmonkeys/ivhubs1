@@ -22,6 +22,26 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 import ReactCompareImage from "react-compare-image";
 
+const service = {
+  treatments: [
+    {
+      category: "Body",
+      services: [
+        { name: "Morpheus Face", price: "2299" },
+        { name: "Morpheus Body", price: "2999" }
+      ]
+    },
+    {
+      category: "Add-On",
+      services: [
+        { name: "PRP", price: "399" },
+        { name: "Exosomes", price: "1499" }
+      ]
+    }
+  ]
+};
+
+
 const steps = [
   {
     img: step1Img,
@@ -171,33 +191,29 @@ const Morpheus = () => {
                   All Skin Tones | Scarring | Stretchmarks | Collagen Production
                 </p>
               </div>
-              <div class="pricesection">
-                <h1>Price &amp; Package</h1>
-                <br/>
-                <div data-accordion-component="Accordion" class="price-package-accordion">
-                    <div data-accordion-component="AccordionItem" class="accordion__item">
-                      <div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3">
-                          <div class="accordion__button" id="accordion__heading-:rc:" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-:rc:" role="button" tabindex="0" data-accordion-component="AccordionItemButton">Body</div>
-                      </div>
-                      <div data-accordion-component="AccordionItemPanel" class="accordion__panel" id="accordion__panel-:rc:" hidden="">
-                          <div class="treatment-services">
-                            <div class="single-treatment-service"><span>Morpheus Face</span><span>2299 AED</span></div>
-                            <div class="single-treatment-service"><span>Morpheus Body</span><span>2999 AED</span></div>
+              <div className="pricesection">
+                <h1>Price & Package</h1>
+                <br />
+                <Accordion allowZeroExpanded className="price-package-accordion">
+                  {service?.treatments?.length > 0 &&
+                    service.treatments.map((x, index) => (
+                      <AccordionItem key={index}>
+                        <AccordionItemHeading>
+                          <AccordionItemButton>{x.category}</AccordionItemButton>
+                        </AccordionItemHeading>
+                        <AccordionItemPanel>
+                          <div className="treatment-services">
+                            {x.services?.map((y, yIndex) => (
+                              <div className="single-treatment-service" key={yIndex}>
+                                <span>{y.name}</span>
+                                <span>{y.price} AED</span>
+                              </div>
+                            ))}
                           </div>
-                      </div>
-                    </div>
-                    <div data-accordion-component="AccordionItem" class="accordion__item">
-                      <div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3">
-                          <div class="accordion__button" id="accordion__heading-:rd:" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-:rd:" role="button" tabindex="0" data-accordion-component="AccordionItemButton">Add-On</div>
-                      </div>
-                      <div data-accordion-component="AccordionItemPanel" class="accordion__panel" id="accordion__panel-:rd:" hidden="">
-                          <div class="treatment-services">
-                            <div class="single-treatment-service"><span>PRP</span><span>399 AED</span></div>
-                            <div class="single-treatment-service"><span>Exosomes</span><span>1499 AED</span></div>
-                          </div>
-                      </div>
-                    </div>
-                </div>
+                        </AccordionItemPanel>
+                      </AccordionItem>
+                    ))}
+                </Accordion>
               </div>
               <div className="btn-wrap">
                 <Link to={"/booking"} className="btn">
