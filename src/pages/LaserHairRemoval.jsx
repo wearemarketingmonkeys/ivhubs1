@@ -139,6 +139,9 @@ const LaserHairRemoval = () => {
                 </p>
                 <p>All Skin Types & Tones | Darker Hair | Melanin-Rich Skin</p>
               </div>
+              <div>
+                <h4>Pricing Starts From 119 AED</h4>
+              </div>
               <div className="btn-wrap">
                 <Link to={"/booking"} className="btn">
                   BOOK Now

@@ -158,30 +158,36 @@ const AestheticServiceDetails = () => {
                   BOOK Now
                 </Link>
               </div>
-              <div className="pricesection">
-              <h1>Price & Package</h1>
-              <br/>
-              <Accordion allowZeroExpanded className="price-package-accordion">
-                {service?.treatments?.length > 0 &&
-                  service.treatments.map((x, index) => (
-                    <AccordionItem key={index}>
-                      <AccordionItemHeading>
-                        <AccordionItemButton>{x.category}</AccordionItemButton>
-                      </AccordionItemHeading>
-                      <AccordionItemPanel>
-                        <div className="treatment-services">
-                          {x.services?.map((y, yIndex) => (
-                            <div className="single-treatment-service" key={yIndex}>
-                              <span>{y.name}</span>
-                              <span>{y.price} AED</span>
-                            </div>
-                          ))}
-                        </div>
-                      </AccordionItemPanel>
-                    </AccordionItem>
-                  ))}
-              </Accordion>
-              </div>
+              {service?.othertext ? (
+                  // Render the content from service.othertext
+                  <div dangerouslySetInnerHTML={{ __html: service.othertext }} />
+                ) : (
+                  // Render the default Price & Package section
+                  <div className="pricesection">
+                    <h1>Price & Package</h1>
+                    <br />
+                    <Accordion allowZeroExpanded className="price-package-accordion">
+                      {service?.treatments?.length > 0 &&
+                        service.treatments.map((x, index) => (
+                          <AccordionItem key={index}>
+                            <AccordionItemHeading>
+                              <AccordionItemButton>{x.category}</AccordionItemButton>
+                            </AccordionItemHeading>
+                            <AccordionItemPanel>
+                              <div className="treatment-services">
+                                {x.services?.map((y, yIndex) => (
+                                  <div className="single-treatment-service" key={yIndex}>
+                                    <span>{y.name}</span>
+                                    <span>{y.price} AED</span>
+                                  </div>
+                                ))}
+                              </div>
+                            </AccordionItemPanel>
+                          </AccordionItem>
+                        ))}
+                    </Accordion>
+                  </div>
+                )}
             </div>
           </div>
         </div>
