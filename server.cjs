@@ -217,6 +217,13 @@ app.get("/contact-us", (req, res) => {
   renderPage(req, res, "Contact | IV Wellness Lounge", "Have questions or feedback? Feel free to contact us. Our team is here to assist you. Reach out today for prompt and friendly support.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
 });
 
+app.get("/morpheus", (req, res) => {
+  renderPage(req, res, "Morpheus8 RF Microneedling | IV Wellness Lounge", "Dealing with skin laxity, fine lines, wrinkles, or scarring? Morpheus8 combines microneedling and radiofrequency to address these concerns and is safe for everyone.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
+
+app.get("/laser-hair-removal", (req, res) => {
+  renderPage(req, res, "Soprano Titanium - Laser Hair Removal | IV Wellness Lounge", "Soprano Titanium hair removal is compatible with all skin types and tones, offering virtually painless treatment akin to a soothing hot stone massage.", `${res.locals.domain}/og.png`, `${res.locals.domain}/`);
+});
 
 // Fallback for all other SPA routes
 app.use((req, res) => {

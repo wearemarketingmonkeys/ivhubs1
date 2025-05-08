@@ -20,6 +20,93 @@ import {
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
 
+const service = {
+
+    "treatments": [
+      {
+        "category": "XS Area",
+        "areas": "Upper Lip, Chin, Nipple, Fingers, Toes, Ears, Eyebrows, Nose",
+        "services": [
+          { "name": "1 Session", "price": "119" },
+          { "name": "3 Sessions", "price": "299" },
+          { "name": "6 Sessions", "price": "429" }
+        ]
+      },
+      {
+        "category": "S Area",
+        "areas": "Neck, Cheeks, Jawline, Hands, Abdomen Line, Feet",
+        "services": [
+          { "name": "1 Session", "price": "219" },
+          { "name": "3 Sessions", "price": "529" },
+          { "name": "6 Sessions", "price": "799" }
+        ]
+      },
+      {
+        "category": "M Area",
+        "areas": "Face, Face Beard, Under Arms, Buttocks, Bikini Line, Shoulders Top, Hairline",
+        "services": [
+          { "name": "1 Session", "price": "299" },
+          { "name": "3 Sessions", "price": "699" },
+          { "name": "6 Sessions", "price": "999" }
+        ]
+      },
+      {
+        "category": "L Area",
+        "areas": "Half Legs, Abdomen, Full Bikini, Half Back, Chest",
+        "services": [
+          { "name": "1 Session", "price": "499" },
+          { "name": "3 Sessions", "price": "999" },
+          { "name": "6 Sessions", "price": "1699" }
+        ]
+      },
+      {
+        "category": "XL Area",
+        "areas": "Full Arms, Full Legs, Full Back, Chest & Abdomen, Back & Shoulders",
+        "services": [
+          { "name": "1 Session", "price": "699" },
+          { "name": "3 Sessions", "price": "1499" },
+          { "name": "6 Sessions", "price": "2299" }
+        ]
+      },
+      {
+        "category": "Semi Body (Female)",
+        "areas": "Semi Body",
+        "services": [
+          { "name": "1 Session", "price": "1499" },
+          { "name": "3 Sessions", "price": "3599" },
+          { "name": "6 Sessions", "price": "4999" }
+        ]
+      },
+      {
+        "category": "Full Body (Female)",
+        "areas": "Full",
+        "services": [
+          { "name": "1 Session", "price": "1899" },
+          { "name": "3 Sessions", "price": "4499" },
+          { "name": "6 Sessions", "price": "6499" }
+        ]
+      },
+      {
+        "category": "Semi Body (Male)",
+        "areas": "Semi Body",
+        "services": [
+          { "name": "1 Session", "price": "1899" },
+          { "name": "3 Sessions", "price": "4499" },
+          { "name": "6 Sessions", "price": "6799" }
+        ]
+      },
+      {
+        "category": "Full Body (Male)",
+        "areas": "Full",
+        "services": [
+          { "name": "1 Session", "price": "2199" },
+          { "name": "3 Sessions", "price": "5199" },
+          { "name": "6 Sessions", "price": "7899" }
+        ]
+      }
+    ]
+  };
+
 const steps = [
   {
     img: step1Img,
@@ -147,6 +234,37 @@ const LaserHairRemoval = () => {
                   BOOK Now
                 </Link>
               </div>
+              <div className="pricesection">
+                <h1>Price & Package</h1>
+                <br />
+                <Accordion allowZeroExpanded className="price-package-accordion">
+                  {service?.treatments?.length > 0 &&
+                    service.treatments.map((x, index) => (
+                      <AccordionItem key={index}>
+                        <AccordionItemHeading>
+                          <AccordionItemButton>{x.category}</AccordionItemButton>
+                        </AccordionItemHeading>
+                        <AccordionItemPanel>
+                          <div className="treatment-services">
+                            {/* Area description */}
+                            <div className="single-treatment-service area-description" style={{ marginBottom: "10px", fontStyle: "italic" }}>
+                              <span>{x.areas}</span>
+                            </div>
+
+                            {/* Sessions and prices */}
+                            {x.services?.map((y, yIndex) => (
+                              <div className="single-treatment-service" key={yIndex}>
+                                <span>{y.name}</span>
+                                <span>{y.price} AED</span>
+                              </div>
+                            ))}
+                          </div>
+                        </AccordionItemPanel>
+                      </AccordionItem>
+                    ))}
+                </Accordion>
+              </div>
+
             </div>
           </div>
         </div>
