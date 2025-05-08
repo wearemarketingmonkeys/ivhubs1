@@ -45,11 +45,11 @@ const IvPackageCard = ({ img, title, descBrif, descUl, newBadge }) => {
                 ))}
               </ul>
             </ul>
-            <div className="btn-wrap">
+            {/* <div className="btn-wrap">
               <Link to={"/booking"} className="btn">
                 BOOK TREATMENT
               </Link>
-            </div>
+            </div> */}
           </div>
         )}
       </div>

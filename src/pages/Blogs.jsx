@@ -43,7 +43,7 @@ const Blogs = () => {
           textLight1="Insights &"
           textItalic1=" Wellness"
           textLight2="Tips from"
-          textItalic2="IVHuv"
+          textItalic2="IVHub"
         />
       </div>
 

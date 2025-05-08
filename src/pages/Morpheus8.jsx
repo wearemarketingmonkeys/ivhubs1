@@ -157,12 +157,12 @@ const Morpheus = () => {
                 Morpheus8 combines microneedling and radiofrequency to address
                 these concerns and is safe for everyone.
               </div>
-              <div className="ideal-for">
+              {/* <div className="ideal-for">
                 <p>
                   <strong>Does Not Treat:</strong>
                 </p>
                 <p>Acne Scarring | Sensitive Skin</p>
-              </div>
+              </div> */}
               <div className="ideal-for">
                 <p>
                   <strong>Ideal For:</strong>
@@ -170,6 +170,34 @@ const Morpheus = () => {
                 <p>
                   All Skin Tones | Scarring | Stretchmarks | Collagen Production
                 </p>
+              </div>
+              <div class="pricesection">
+                <h1>Price &amp; Package</h1>
+                <br/>
+                <div data-accordion-component="Accordion" class="price-package-accordion">
+                    <div data-accordion-component="AccordionItem" class="accordion__item">
+                      <div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3">
+                          <div class="accordion__button" id="accordion__heading-:rc:" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-:rc:" role="button" tabindex="0" data-accordion-component="AccordionItemButton">Body</div>
+                      </div>
+                      <div data-accordion-component="AccordionItemPanel" class="accordion__panel" id="accordion__panel-:rc:" hidden="">
+                          <div class="treatment-services">
+                            <div class="single-treatment-service"><span>Morpheus Face</span><span>2299 AED</span></div>
+                            <div class="single-treatment-service"><span>Morpheus Body</span><span>2999 AED</span></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div data-accordion-component="AccordionItem" class="accordion__item">
+                      <div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3">
+                          <div class="accordion__button" id="accordion__heading-:rd:" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-:rd:" role="button" tabindex="0" data-accordion-component="AccordionItemButton">Add-On</div>
+                      </div>
+                      <div data-accordion-component="AccordionItemPanel" class="accordion__panel" id="accordion__panel-:rd:" hidden="">
+                          <div class="treatment-services">
+                            <div class="single-treatment-service"><span>PRP</span><span>399 AED</span></div>
+                            <div class="single-treatment-service"><span>Exosomes</span><span>1499 AED</span></div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
               </div>
               <div className="btn-wrap">
                 <Link to={"/booking"} className="btn">
@@ -219,7 +247,7 @@ const Morpheus = () => {
             <div className="right">
               <h1>Results</h1>
               <div className="description">
-              Experience a noticeable improvement in overall skin texture, fat loss, skin tightening, and tone.
+              Morpheus8 combined with PRP and Exosomes delivers a powerful skin rejuvenation treatment that enhances texture, reduces unwanted fat, tightens skin, and improves overall tone for a visibly refreshed and youthful appearance.
               </div>
               <div className="unwanted-hair">
                 <img src={calendarIcon} alt="hair removal" />

@@ -84,12 +84,12 @@ export const menuItems = [
                 { label: "Collagen stimulation (Sculptra & Radiesse)", to: "/aesthetic/collagen-stimulation" },
               ],
             },
-            {
-              submenuTitle: "Redness",
-              submenu: [
-                { label: "Cosmelan Chemical Peel", to: "/aesthetic/chemical-peel" },
-              ],
-            },
+            // {
+            //   submenuTitle: "Redness",
+            //   submenu: [
+            //     { label: "Cosmelan Chemical Peel", to: "/aesthetic/chemical-peel" },
+            //   ],
+            // },
             {
               submenuTitle: "Excessive sweat",
               submenu: [

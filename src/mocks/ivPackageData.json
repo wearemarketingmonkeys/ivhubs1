@@ -15,20 +15,8 @@
         "img": "ivPackage2.webp",
         "title": "Hair Loss Package",
         "desc": {
-          "brif": "Our Hair Loss Package offers a thorough, personalized approach to help you address this issue effectively. Here's how we handle hair loss:",
+          "brif": "<div class='packagedetails'><h2>AED 5,100 (Valued at AED 6,700)</h2><p>Science-backed solutions to restore strength, volume, and vitality—one strand at a time.</p><hr><h2>What’s Included</h2><br><ol><li><b>1. Expert Consultation : </b> Comprehensive consultation with our physician, Medical history review and hormonal/nutritional analysis, Personalized treatment plan tailored to the root cause (genetic, hormonal, stress-induced, or nutritional)</li><li><b>2. In-Clinic Treatment Protocol (Administered over 3–4 months) : </b> 3 PRP Hair Therapy Sessions, 1 Growth Factor Application or Add-on Booster, 2 Scalp Hydrafacial, 2 Hairfall Defense IV Drips</li><li><b>3. At-Home Support : </b> 1 Month Supply of Medical-Grade Hair Supplements/ Serums</li></ol><br><h4>Bonus for Package Clients:</h4><p>- 15% off additional PRP or IV sessions</p><p>- 20% off Exosomes</p><hr><h2>Why This Works</h2><br><p>Our Hair Loss Package is more than a treatment—it’s a fully customized protocol to reboot scalp health, restore hair follicle function, and support long-term regrowth. Whether your concerns stem from postpartum shedding, androgenetic alopecia, or stress-related loss, this program is designed to meet you where you are and bring your hair back to life.</p><a href='https://api.whatsapp.com/send/?phone=97180048482&amp;text=Hello&amp;type=phone_number&amp;app_absent=0' class='main-btn btn'>Continue to Booking</a></div>",
           "ul": [
-            {
-              "liTitle": "Consultation with Doctor Noemie Vezina – 1 of 8 doctors in Canada on the hair loss consensus will assess your needs"
-            },
-            {
-              "liTitle": "Medical assessment – scalp examination to determine the causes (hormonal, nutritional, stress, genetics, or other)"
-            },
-            {
-              "liTitle": "Personalized treatment protocol"
-            },
-            {
-              "liTitle": "Partnership with Follicl MD"
-            }
           ]
         },
         "bookingBtn": "/booking",
@@ -38,51 +26,21 @@
         "img": "ivPackage3.webp",
         "title": "Pigmentation Package",
         "desc": {
-          "brif": "Our Pigmentation Package offers a personalized and comprehensive approach to address various types of pigmentation, ensuring you receive the most effective treatment for your specific needs. Here's how we handle pigmentation:",
+          "brif": "<div class='packagedetails'><h2>AED 6,500 (Valued at AED 8.900)</h2><p>A targeted protocol to fade dark spots, even skin tone, and restore radiant clarity—designed for your skin’s unique pigmentation profile.</p><hr><h2>What’s Included</h2><br><ol><li><b>1. Expert Consultation &amp; Skin Profiling : </b> Personalized consultation with our skin specialist to evaluate pigmentation type (melasma, sun spots, age-related, or PIH), Full review of lifestyle and current skincare routine (clients are encouraged to bring their products), Customized treatment plan based on skin sensitivity, depth of pigmentation, and overall goals</li><li><b>2. Targeted In-Clinic Treatments (Scheduled over 6–10 weeks) : </b> 1 Cosmelan Peel, Up to 2 Skin Booster Treatments, 1 PRP Session (Platelet-Rich Plasma), 1 Medical Grade Retinol session (Brightening Cocktail), 2 Signature Facial Treatment, 1 IV Drip session</li><li><b>3. At-Home Support : </b> 1 Month Supply of Medical-Grade Hair Supplements/ Serums</li></ol><br><h4>Bonus for Package Clients:</h4><p>- 15% off additional Skin booster or IV sessions</p><p>- 20% off Exosomes</p><hr><h2>Why This Works</h2><br><p>Pigmentation is complex—and we treat it as such. Our multi-step program addresses all layers of discoloration, from the surface to the deeper dermis, using a combination of chemical peels, regenerative therapies, skin boosters, and medical-grade skincare. Whether caused by sun exposure, hormonal shifts, or inflammation, this package is designed to deliver noticeable clarity, brightness, and lasting results.</p><a href='https://api.whatsapp.com/send/?phone=97180048482&amp;text=Hello&amp;type=phone_number&amp;app_absent=0' class='main-btn btn'>Continue to Booking</a></div>",
           "ul": [
-            {
-              "liTitle": "Consultation with expert – not all pigment are the same and it should not be treated as such ex. Melasma"
-            },
-            {
-              "liTitle": "Establish type of pigment (sunspot, melasma, age, or other)"
-            },
-            {
-              "liTitle": "Full review of current face care routine (bring your products)"
-            },
-            {
-              "liTitle": "Complete package offering including based on the person – Price is $4,750 for the package value $6,000:",
-              "subLi": [
-                "Up to 2 HALO treatments",
-                "Up to 2 Nano Laser Peel or Chemical Peel",
-                "Up to 2 BBL treatments",
-                "Discoloration Defense",
-                "Vitamin C",
-                "Ratinol"
-              ]
-            }
+            
           ]
         },
         "bookingBtn": "/booking",
         "newBadge": false
       },
       {
-        "img": "ivPackage4.webp",
-        "title": "Wrinkle Package",
+        "img": "fatloss.webp",
+        "title": "Fat Loss + Body Contouring Program",
         "desc": {
-          "brif": "At SABBYA, we offer a comprehensive solution to help you achieve smoother, younger-looking skin. Here’s how we handle wrinkles:",
+          "brif": "<div class='packagedetails'><h2>AED 7,200 (Valued at AED 9,500)</h2><p>A non-surgical, personalized body contouring journey to help you tone, sculpt, and reveal your best shape—backed by cutting-edge technology and wellness support.</p><hr><h2>What’s Included</h2><br><ol><li><b>1. Body Consultation &amp; Wellness Assessment : </b> One-on-one consultation with our expert aesthetic team, Full evaluation of target areas, lifestyle, and metabolic profile, Custom treatment plan based on your body goals (abdomen, arms, thighs, chin, etc.)</li><li><b>2. Body Contouring + Fat Reduction Treatments : </b> 2 Morpheus8® Sessions, 5 LipoZero Session, 2 Liposculpt Sessions (Fat melting injections)</li><li><b>3. Internal Support &amp; Wellness Boosters : </b> 2 IV Drips (Detox + Metabolism Boost), 1 Shot of L-Carnitine or B12 Booster (based on consultation)</li></ol><br><h4>Optional Add-Ons at Preferential Rates for Package Clients:</h4><p>- IV NAD+ for cellular rejuvenation at 15% off</p><p>- Peptides at 10% off</p><br><a href='https://api.whatsapp.com/send/?phone=97180048482&amp;text=Hello&amp;type=phone_number&amp;app_absent=0' class='main-btn btn'>Continue to Booking</a></div>",
           "ul": [
-            {
-              "liTitle": "Consultation with Doctor Noemie Vezina"
-            },
-            {
-              "liTitle": "Complete package offering including based on the person – Price is 200 AD for the package value $5,100:",
-              "subLi": [
-                "Up to 60 units of Botox or Dysport",
-                "Up to 2 HALO or 3 Morpheus 8 treatments",
-                "Vitamin C",
-                "Ratinol"
-              ]
-            }
+            
           ]
         },
         "bookingBtn": "/booking",
