@@ -20,7 +20,10 @@ const ArticleCard = ({ img, title, desc, readMoreUrl }) => {
     <div className="articleWrap">
       <div className="content">
         {/* <img src={img} alt="article img" /> */}
-        <h2>{title}</h2>
+        {/* <h2>{title}</h2> */}
+        <h2>
+          <Link to={readMoreUrl}>{title}</Link>
+        </h2>
         <hr/>
         <p>{stripHtmlAndTruncate(desc)}</p>
       </div>
