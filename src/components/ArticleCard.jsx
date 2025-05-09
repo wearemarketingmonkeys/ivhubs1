@@ -19,8 +19,9 @@ const ArticleCard = ({ img, title, desc, readMoreUrl }) => {
   return (
     <div className="articleWrap">
       <div className="content">
-        <img src={img} alt="article img" />
+        {/* <img src={img} alt="article img" /> */}
         <h2>{title}</h2>
+        <hr/>
         <p>{stripHtmlAndTruncate(desc)}</p>
       </div>
       <Link to={readMoreUrl}>Read article</Link>

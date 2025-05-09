@@ -65,7 +65,8 @@ const BlogDetails = () => {
               </div>
 
               <h1>{blog.title}</h1>
-              <p>{blog.desc}</p>
+              <div dangerouslySetInnerHTML={{ __html: blog.desc }}></div>
+
 
               {blog.content?.map((x, index) => (
                 <div className="content" key={index}>
