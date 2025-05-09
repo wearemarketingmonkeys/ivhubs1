@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Pagination from "../components/Pagination";
 import HeroSection from "../components/HeroSection";
 import ArticleCard from "../components/ArticleCard";
-import articlesData from "../mocks/articlesData.json";
 import blogHero from "../assets/img/blog/blog-hero.webp";
 
 const Blogs = () => {
@@ -12,31 +11,44 @@ const Blogs = () => {
 
   const images = import.meta.glob("../assets/img/blog/*.webp", {
     eager: true,
-  }); /* for image */
+  }); // Preload local images
 
   useEffect(() => {
-    // Map articles data with image URLs
-    const updatedArticles = articlesData.articlesData.map((article) => ({
-      ...article,
-      img: images[`../assets/img/blog/${article.img}`]?.default || "",
-    }));
-    setArticles(updatedArticles);
-  }, [articlesData]);
+    const fetchArticles = async () => {
+      try {
+        const response = await fetch("https://iv-blogs.ivhub.com/blogslist");
 
-  // Get current articles based on the current page
+        if (!response.ok) {
+          throw new Error("Failed to fetch blog data");
+        }
+
+        const data = await response.json();
+
+        // Map the fetched data with local image imports
+        const updatedArticles = data.articlesData.map((article) => ({
+          ...article,
+          img: images[`../assets/img/blog/${article.img}`]?.default || "",
+        }));
+
+        setArticles(updatedArticles);
+      } catch (error) {
+        console.error("Error fetching articles:", error);
+      }
+    };
+
+    fetchArticles();
+  }, []);
+
+  // Pagination logic
   const indexOfLastArticle = currentPage * articlesPerPage;
   const indexOfFirstArticle = indexOfLastArticle - articlesPerPage;
-  const currentArticles = articles.slice(
-    indexOfFirstArticle,
-    indexOfLastArticle
-  );
+  const currentArticles = articles.slice(indexOfFirstArticle, indexOfLastArticle);
 
-  // Pagination function to handle page changes
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
     <>
-      {/* Blog hero */}
+      {/* Blog Hero */}
       <div className="blog-hero">
         <HeroSection
           img={blogHero}
@@ -47,16 +59,15 @@ const Blogs = () => {
         />
       </div>
 
-      
-
       {/* Blog Cards */}
       <div className="blog-cards">
         <div className="container">
           <div className="article-wrapper">
             <h1>
-              Welcome to the IVHuv Blog – your go-to resource for the latest
+              Welcome to the IVHub Blog – your go-to resource for the latest
               updates, expert advice, and wellness inspiration.
             </h1>
+
             {currentArticles.map((x, index) => (
               <ArticleCard
                 key={index}
@@ -66,8 +77,8 @@ const Blogs = () => {
                 readMoreUrl={`/blogs/${x.title.replace(/\s+/g, "-")}`}
               />
             ))}
+
             <div className="btn-wrap">
-              {/* Pagination */}
               <Pagination
                 totalArticles={articles.length}
                 articlesPerPage={articlesPerPage}
