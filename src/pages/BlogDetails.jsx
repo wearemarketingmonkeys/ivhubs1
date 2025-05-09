@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useLocation } from "react-router-dom";
 import { FaFacebookF, FaLink, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const BlogDetails = () => {
@@ -10,6 +10,15 @@ const BlogDetails = () => {
   const images = import.meta.glob("../assets/img/blog/*.webp", {
     eager: true,
   });
+
+  const location = useLocation();
+  const currentUrl = `${window.location.origin}${location.pathname}`;
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(currentUrl).then(() => {
+      alert("Link copied to clipboard!");
+    });
+  };
 
   useEffect(() => {
     const fetchBlog = async () => {
@@ -71,10 +80,35 @@ const BlogDetails = () => {
               <div className="date-wrap">
                 <span>{blog.date}</span>
                 <div className="share-wrap">
-                  <Link to={"/"}><FaFacebookF /></Link>
-                  <Link to={"/"}><FaTwitter /></Link>
-                  <Link to={"/"}><FaLinkedinIn /></Link>
-                  <Link to={"/"}><FaLink /></Link>
+                  <div className="share-wrap">
+                      <a
+                        href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaFacebookF />
+                      </a>
+
+                      <a
+                        href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaTwitter />
+                      </a>
+
+                      <a
+                        href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaLinkedinIn />
+                      </a>
+
+                      <button onClick={copyToClipboard} className="copy-link-button">
+                        <FaLink />
+                      </button>
+                    </div>
                 </div>
               </div>
 
