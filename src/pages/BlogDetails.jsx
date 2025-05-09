@@ -44,6 +44,20 @@ const BlogDetails = () => {
     fetchBlog();
   }, [blogTitle]);
 
+  const cleanHtml = (html) => {
+    // Replace all <br><br> and <br/><br/> with a placeholder to preserve them
+    let cleaned = html.replace(/(<br\s*\/?>){2}/gi, "##DOUBLEBR##");
+  
+    // Remove any remaining single <br> or <br/>
+    cleaned = cleaned.replace(/<br\s*\/?>/gi, "");
+  
+    // Restore the preserved <br><br>
+    cleaned = cleaned.replace(/##DOUBLEBR##/g, "<br><br>");
+  
+    return cleaned;
+  };
+  
+
   if (!blog) return <div className="blog-loading">Loading...</div>;
 
   return (
@@ -65,7 +79,7 @@ const BlogDetails = () => {
               </div>
 
               <h1>{blog.title}</h1>
-              <div dangerouslySetInnerHTML={{ __html: blog.desc }}></div>
+              <div dangerouslySetInnerHTML={{ __html: cleanHtml(blog.desc) }}></div>
 
 
               {blog.content?.map((x, index) => (
