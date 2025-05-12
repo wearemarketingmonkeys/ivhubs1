@@ -210,9 +210,12 @@ const Header = () => {
                   ))}
                 </ul>
                 <div className="phone-wrap">
-                  <NavLink className="tel" to={"tel:+97180048482"}>
+                  {/* <NavLink className="tel" to={"tel:+97180048482"}>
                   +971 800 48482
-                  </NavLink>
+                  </NavLink> */}
+                  <Link to="https://book.ivhub.com/" className="btn">
+                    Book Now
+                  </Link>
                   <NavLink
                     className="whatsapp"
                     to={"https://wa.me/97180048482"}
