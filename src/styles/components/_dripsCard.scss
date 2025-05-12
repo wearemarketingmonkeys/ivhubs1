@@ -57,11 +57,13 @@
           margin-right: 20px;
         }
       }
+      .btntitle{
+        padding: 0;
+      }
     }
     p{
       margin-top: 4px;
       font-size: 14px;
-      padding: 8px;
       @media(min-width:992px) {
         max-width: 350px;
       }
