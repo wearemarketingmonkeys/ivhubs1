@@ -49,6 +49,7 @@ const weveGotDetails = [
   "Laser Hair Removal",
   "Lipo Sculpt",
   "Lipo Zero",
+  "Hydrafacial",
 ];
 
 const Home = () => {
@@ -123,7 +124,7 @@ const Home = () => {
         : selectedGot === gotDetails[4]
         ? setSelectedWeveGot(weveGotDetails[3])
         : selectedGot === gotDetails[5]
-        ? setSelectedWeveGot(weveGotDetails[4])
+        ? setSelectedWeveGot(weveGotDetails[8])
         : selectedGot === gotDetails[6]
         ? setSelectedWeveGot(weveGotDetails[5])
         : selectedGot === gotDetails[7]
