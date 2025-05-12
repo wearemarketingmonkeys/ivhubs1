@@ -33,6 +33,7 @@ const Footer = () => {
         { label: "Terms & Conditions", path: "/terms-conditions" },
         { label: "Have Questions?", path: "/contact-us" },
         { label: "Privacy Policy", path: "/privacy-policy" },
+        { label: "Sitemap", path: "/sitemap" },
       ],
     },
   ];
