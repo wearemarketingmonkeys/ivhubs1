@@ -23,11 +23,13 @@ const FloatingContents = ({className}) => {
 
         <div className={`floating-wrap floatwp ${className}`}>
         <FloatingWhatsApp  
-            phoneNumber='+97180048482'
-            accountName='Iv Hub'
-            avatar={mblLogo}
-            className='whatsapp_float'
-        />
+              phoneNumber="+97180048482"
+              accountName="IV Wellness Lounge"
+              avatar={mblLogo}
+              className="whatsapp_float"
+              statusMessage="Typically replies within seconds"
+              chatMessage="Hi there! 👋 How can we help you today?"
+          />
         </div>
         </>
     );
