@@ -5,9 +5,9 @@ const Sitemap = () => {
   return (
     <div className="sitemap-page py-5" style={{ margin: "50px auto" }}>
       <div className="container">
-        <div className="hero p-5">
+        {/* <div className="hero p-5">
             <h1>IVHUB Website Sitemap</h1>
-        </div>
+        </div> */}
         <h2>Main Website</h2>
         <ul>
         <li><a href="https://www.ivhub.com/" target="_blank">Homepage</a></li>
