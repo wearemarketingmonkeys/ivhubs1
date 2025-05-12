@@ -34,39 +34,46 @@ const ContactUs = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { name, subject, email, message } = formData;
-
+  
     if (!name || !subject || !email || !message) {
       setStatus("Please fill in all fields.");
       return;
     }
-
+  
     const data = new FormData();
     data.append("name", name);
     data.append("subject", subject);
     data.append("email", email);
     data.append("message", message);
-
+  
     const actionUrl = `${window.location.origin}/php/contact.php`;
-
+  
     try {
       const response = await fetch(actionUrl, {
         method: "POST",
         body: data,
       });
-
-      const result = await response.json();
-
-      if (result.success) {
-        setStatus("Message sent successfully!");
-        setFormData({ name: "", subject: "", email: "", message: "" });
+  
+      const contentType = response.headers.get("content-type");
+  
+      if (contentType && contentType.includes("application/json")) {
+        const result = await response.json();
+        if (result.success) {
+          setStatus("Message sent successfully!");
+          setFormData({ name: "", subject: "", email: "", message: "" });
+        } else {
+          setStatus("Failed to send message. Please try again later.");
+        }
       } else {
-        setStatus("Failed to send message. Please try again later.");
+        const rawText = await response.text();
+        console.error("Unexpected response:", rawText);
+        setStatus("Unexpected server response. Please contact support.");
       }
     } catch (error) {
       console.error("Form submission error:", error);
       setStatus("An error occurred. Please try again later.");
     }
-  };
+  };  
 
   return (
     <div className="contact-us">
