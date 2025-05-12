@@ -154,7 +154,7 @@ const AestheticServiceDetails = () => {
                 </strong>
               </p>
               <div className="btn-wrap">
-                <Link to={"/booking"} className="btn">
+                <Link to={service.bookingBtn} className="btn">
                   BOOK Now
                 </Link>
               </div>

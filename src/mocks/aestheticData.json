@@ -31,7 +31,7 @@
       "duration": 45,
       "startingAmount": 699,
       "discount": 20,
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
       "fullDetailsUrl": "/aesthetic/mesotherapy",
       "treatmentsTips": [
         {
@@ -171,7 +171,7 @@
       "duration": 20,
       "startingAmount": 199,
       "discount": 20,
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
       "fullDetailsUrl": "/aesthetic/hydra-facial",
       "treatmentsTips": [
         {
@@ -327,7 +327,7 @@
       "duration": 45,
       "startingAmount": 499,
       "discount": 20,
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
       "fullDetailsUrl": "/aesthetic/chemical-peel",
       "treatmentsTips": [
         {
@@ -465,7 +465,7 @@
       "duration": 50,
       "startingAmount": 999,
       "discount": 20,
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
       "fullDetailsUrl": "/aesthetic/anti-aging",
       "treatmentsTips": [
         {
@@ -701,7 +701,7 @@
       "duration": 45,
       "startingAmount": 699,
       "discount": 20,
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
       "fullDetailsUrl": "/aesthetic/dermal-fillers",
       "treatmentsTips": [
         {
@@ -864,7 +864,7 @@
       "duration": 60,
       "startingAmount": 2499,
       "discount": 20,
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
       "fullDetailsUrl": "/aesthetic/collagen-stimulation",
       "treatmentsTips": [
         {
@@ -980,7 +980,7 @@
       "duration": 45,
       "startingAmount": 1099,
       "discount": 20,
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
       "fullDetailsUrl": "/aesthetic/skin-boosters",
       "treatmentsTips": [
         {
@@ -1175,7 +1175,7 @@
       "duration": 10,
       "startingAmount": 1499,
       "discount": 20,
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
       "fullDetailsUrl": "/aesthetic/lipo-sculpt",
       "treatmentsTips": [
         {
@@ -1290,7 +1290,7 @@
       "duration": 10,
       "startingAmount": 699,
       "discount": 20,
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
       "fullDetailsUrl": "/aesthetic/collagen-threads",
       "treatmentsTips": [
         {
@@ -1394,7 +1394,7 @@
       "duration": 90,
       "startingAmount": 425,
       "discount": 20,
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
       "fullDetailsUrl": "/aesthetic/body-contouring",
       "treatmentsTips": [
         {
@@ -1565,7 +1565,7 @@
       "duration": 45,
       "startingAmount": 699,
       "discount": 20,
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
       "fullDetailsUrl": "/aesthetic/prp",
       "treatmentsTips": [
         {
