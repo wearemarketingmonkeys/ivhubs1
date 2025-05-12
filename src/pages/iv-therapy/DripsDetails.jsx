@@ -146,7 +146,7 @@ const DripsDetails = () => {
               </p>
               <div className="btn-wrap">
                 <Link to="{data?.bookingBtn}" className="btn">
-                  BOOK Now
+                  Book Now
                 </Link>
                 <Link to="/iv-therapy/drips" className="btn btn-stroke">
                   Explore other drips
