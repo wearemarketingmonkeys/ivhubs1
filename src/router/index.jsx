@@ -24,6 +24,7 @@ import BlogDetails from "../pages/BlogDetails";
 import CancellationPolicy from "../pages/CancellationPolicy";
 import TermsConditions from "../pages/TermsConditions";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
+import Sitemap from "../pages/Sitemap";
 
 
 const Router = () => {
@@ -205,6 +206,15 @@ const Router = () => {
   element={
     <Page>
       <PrivacyPolicy />
+    </Page>
+  }
+/>
+
+<Route
+  path="/sitemap"
+  element={
+    <Page>
+      <Sitemap />
     </Page>
   }
 />
