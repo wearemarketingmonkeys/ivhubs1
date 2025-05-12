@@ -46,7 +46,7 @@ const ContactUs = () => {
     data.append("email", email);
     data.append("message", message);
   
-    const actionUrl = `${window.location.origin}/php/contact.php`;
+    const actionUrl = `https://iv-blogs.ivhub.com/php/contact.php`;
   
     try {
       const response = await fetch(actionUrl, {
