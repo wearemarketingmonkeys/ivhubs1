@@ -52,6 +52,10 @@
         width: max-content;
         padding: 8px;
         height: 36px;
+
+        @media(max-width:768px) {
+          margin-right: 20px;
+        }
       }
     }
     p{

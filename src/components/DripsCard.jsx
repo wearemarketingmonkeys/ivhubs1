@@ -14,13 +14,14 @@ const DripsCard = ({
     <div className="single-drips-details">
       <div className="img-box">
         <img src={dripsImg} alt={title} />
-        <span>AED {price}</span>
+        {/* <span>AED {price}</span> */}
       </div>
       <div className="wrap">
         <div className="left">
           <h1>{title}</h1>
         <Link to={moreDetailsUrl} className="btn btn-stroke">
-         Know More
+         {/* Know More */}
+         AED {price}
         </Link>
         </div>
           <p>{desc}</p>
