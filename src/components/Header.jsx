@@ -8,8 +8,8 @@ import MobileMenu from "./MobileMenu";
 import Modal from "react-minimal-modal";
 import caretBlack from "../assets/icons/caret-black.png";
 import { GoArrowUpRight } from "react-icons/go";
-import wellnessImg from "../assets/img/iv-therapy/wellness.webp";
-import energyBoosterImg from "../assets/img/iv-therapy/energy-boosters.webp";
+import wellnessImg from "../assets/img/iv-therapy/ivtherapymenu2.webp";
+import energyBoosterImg from "../assets/img/iv-therapy/ivtherapymenu1.webp";
 import {menuItems} from "../mocks/menuItems";
 
 const ivTherapyItems = [
