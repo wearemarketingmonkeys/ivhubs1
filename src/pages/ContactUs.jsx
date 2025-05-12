@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import heroImg from "../assets/img/contact/hero.webp";
 import { Link } from "react-router-dom";
 import { FaRegClock, FaLocationArrow } from "react-icons/fa";
@@ -12,29 +12,62 @@ import {
 } from "react-icons/ri";
 
 const socialLinks = [
-  {
-    icon: <RiFacebookCircleLine />,
-    url: "https://facebook.com",
-  },
-  {
-    icon: <RiTwitterLine />,
-    url: "https://twitter.com",
-  },
-  {
-    icon: <RiInstagramLine />,
-    url: "https://instagram.com",
-  },
-  {
-    icon: <RiDribbbleLine />,
-    url: "https://dribble.com",
-  },
+  { icon: <RiFacebookCircleLine />, url: "https://facebook.com" },
+  { icon: <RiTwitterLine />, url: "https://twitter.com" },
+  { icon: <RiInstagramLine />, url: "https://instagram.com" },
+  { icon: <RiDribbbleLine />, url: "https://dribble.com" },
 ];
 
 const ContactUs = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Add your form submission logic here
+  const [formData, setFormData] = useState({
+    name: "",
+    subject: "",
+    email: "",
+    message: "",
+  });
+  const [status, setStatus] = useState("");
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value });
   };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const { name, subject, email, message } = formData;
+
+    if (!name || !subject || !email || !message) {
+      setStatus("Please fill in all fields.");
+      return;
+    }
+
+    const data = new FormData();
+    data.append("name", name);
+    data.append("subject", subject);
+    data.append("email", email);
+    data.append("message", message);
+
+    const actionUrl = `${window.location.origin}/php/contact.php`;
+
+    try {
+      const response = await fetch(actionUrl, {
+        method: "POST",
+        body: data,
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setStatus("Message sent successfully!");
+        setFormData({ name: "", subject: "", email: "", message: "" });
+      } else {
+        setStatus("Failed to send message. Please try again later.");
+      }
+    } catch (error) {
+      console.error("Form submission error:", error);
+      setStatus("An error occurred. Please try again later.");
+    }
+  };
+
   return (
     <div className="contact-us">
       <div className="contact-hero">
@@ -107,7 +140,9 @@ const ContactUs = () => {
                     <input
                       type="text"
                       id="name"
-                      placeholder="Enter your email"
+                      placeholder="Enter your name"
+                      value={formData.name}
+                      onChange={handleChange}
                     />
                   </div>
 
@@ -116,16 +151,20 @@ const ContactUs = () => {
                     <input
                       type="text"
                       id="subject"
-                      placeholder="Enter your email"
+                      placeholder="Enter subject"
+                      value={formData.subject}
+                      onChange={handleChange}
                     />
                   </div>
 
                   <div className="form-group">
-                    <label htmlFor="mail">MAIL</label>
+                    <label htmlFor="email">MAIL</label>
                     <input
                       type="email"
-                      id="mail"
+                      id="email"
                       placeholder="Enter your email"
+                      value={formData.email}
+                      onChange={handleChange}
                     />
                   </div>
 
@@ -135,11 +174,17 @@ const ContactUs = () => {
                       id="message"
                       placeholder="Your message"
                       rows="6"
+                      value={formData.message}
+                      onChange={handleChange}
                     ></textarea>
                   </div>
 
+                  {status && <p className="form-status">{status}</p>}
+
                   <div className="btn-wrap">
-                  <button type="submit" className="btn">Send now</button>
+                    <button type="submit" className="btn">
+                      Send now
+                    </button>
                   </div>
                 </form>
               </div>
