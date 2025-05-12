@@ -150,9 +150,18 @@ const Home = () => {
       <PromoPopup />
       {/* Home Hero */}
       <div className="home-hero">
-        <video className="hero-video" autoPlay muted loop playsInline>
+      <video
+          className="hero-video"
+          autoPlay
+          muted
+          loop
+          playsInline
+          onEnded={(e) => {
+            e.target.currentTime = 0;
+            e.target.play();
+          }}
+        >
           <source src={ivVideo} type="video/mp4" />
-          {/* Fallback text for unsupported browsers */}
           Your browser does not support the video tag.
         </video>
         <div className="hero-overlay"></div>
