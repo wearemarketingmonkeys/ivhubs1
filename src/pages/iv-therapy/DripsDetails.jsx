@@ -145,7 +145,7 @@ const DripsDetails = () => {
                 <Link to="/explore-us/offers">Explore more offers</Link>
               </p>
               <div className="btn-wrap">
-                <Link to="/booking" className="btn">
+                <Link to="{data?.bookingBtn}" className="btn">
                   BOOK Now
                 </Link>
                 <Link to="/iv-therapy/drips" className="btn btn-stroke">
