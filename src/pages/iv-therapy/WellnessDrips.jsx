@@ -163,7 +163,7 @@ const WellnessDrips = () => {
 
       <div className="drips-cards">
         <div className="container">
-        <Carousel
+        {/* <Carousel
             ref={carouselRef}
             responsive={responsive}
             swipeable={true}
@@ -188,8 +188,8 @@ const WellnessDrips = () => {
                 />
               </div>
             ))}
-          </Carousel>
-          {/* <Carousel
+          </Carousel> */}
+          <Carousel
             ref={carouselRef}
             responsive={responsive}
             swipeable={true}
@@ -232,18 +232,18 @@ const WellnessDrips = () => {
               }
               return acc;
             }, [])}
-          </Carousel> */}
+          </Carousel>
         </div>
 
 {/* Custom Arrows Outside Carousel */}
-{/* <div className="custom-arrow-container">
+<div className="custom-arrow-container">
   <button className="custom-arrow left-arrow" onClick={goPrev}>
     <GoChevronLeft />
   </button>
   <button className="custom-arrow right-arrow" onClick={goNext}>
     <GoChevronRight />
   </button>
-</div> */}
+</div>
       </div>
     </div>
   );
