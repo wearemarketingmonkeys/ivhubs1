@@ -19,7 +19,7 @@ const DripsCard = ({
       <div className="wrap">
         <div className="left">
           
-          <Link to={moreDetailsUrl} className="btn btn-stroke">
+          <Link to={moreDetailsUrl}>
           <h1>{title}</h1>
           </Link>
         <Link to={moreDetailsUrl} className="btn btn-stroke">
