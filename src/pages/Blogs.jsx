@@ -52,10 +52,10 @@ const Blogs = () => {
       <div className="blog-hero">
         <HeroSection
           img={blogHero}
-          textLight1="Insights &"
-          textItalic1=" Wellness"
-          textLight2="Tips from"
-          textItalic2="IVHub"
+          textLight1="The Wellness Edit"
+          textItalic1=" - Health,"
+          textLight2="Beauty"
+          textItalic2="& Beyond"
         />
       </div>
 

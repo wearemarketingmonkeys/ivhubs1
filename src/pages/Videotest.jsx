@@ -10,10 +10,7 @@ const Videotest = () => {
         autoPlay
         muted
         playsInline
-        onEnded={(e) => {
-            e.target.currentTime = 0;
-            e.target.play();
-        }}
+        loop
         >
         <source src="https://www.ivhub.com/assets/IV-Welness-Drips-RUYeFUMf.mp4" type="video/mp4" />
         Your browser does not support the video tag.
