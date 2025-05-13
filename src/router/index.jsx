@@ -25,6 +25,7 @@ import CancellationPolicy from "../pages/CancellationPolicy";
 import TermsConditions from "../pages/TermsConditions";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import Sitemap from "../pages/Sitemap";
+import Videotest from "../pages/Videotest";
 
 
 const Router = () => {
@@ -215,6 +216,15 @@ const Router = () => {
   element={
     <Page>
       <Sitemap />
+    </Page>
+  }
+/>
+
+<Route
+  path="/videotest"
+  element={
+    <Page>
+      <Videotest />
     </Page>
   }
 />
