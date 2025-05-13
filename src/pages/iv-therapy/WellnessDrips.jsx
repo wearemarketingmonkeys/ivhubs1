@@ -112,7 +112,7 @@ const WellnessDrips = () => {
     },
     mobile: {
       breakpoint: { max: 768, min: 0 },
-      items: 1, // 1 pair (2 items total)
+      items: 2, // 1 pair (2 items total)
       slidesToSlide: 1,
     },
   };
@@ -194,7 +194,7 @@ const WellnessDrips = () => {
             responsive={responsive}
             swipeable={true}
             draggable={true}
-            showDots={true}
+            showDots={false}
             keyBoardControl={true}
             customTransition="all 0.5s ease"
             transitionDuration={500}
