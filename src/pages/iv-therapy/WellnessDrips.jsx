@@ -166,33 +166,49 @@ const WellnessDrips = () => {
           ) : (
             // Carousel for desktop and tablet
             <Carousel
-              ref={carouselRef}
-              responsive={responsive}
-              swipeable={true}
-              draggable={true}
-              showDots={false}
-              keyBoardControl={true}
-              customTransition="all 0.5s ease"
-              transitionDuration={500}
-              arrows={false}
-              autoPlay={false}
-            >
-              {filteredDrips.reduce((acc, _, index, array) => {
-                if (index % 2 === 0) {
-                  acc.push(
-                    <div className="drip-pair" key={index}>
-                      {array[index] && (
-                        <DripsCard {...array[index]} />
-                      )}
-                      {array[index + 1] && (
-                        <DripsCard {...array[index + 1]} />
-                      )}
-                    </div>
-                  );
-                }
-                return acc;
-              }, [])}
-            </Carousel>
+            ref={carouselRef}
+            responsive={responsive}
+            swipeable={true}
+            draggable={true}
+            showDots={false}
+            keyBoardControl={true}
+            customTransition="all 0.5s ease"
+            transitionDuration={500}
+            arrows={false}
+            autoPlay={false}
+          >
+            {filteredDrips.reduce((acc, _, index, array) => {
+              if (index % 2 === 0) {
+                acc.push(
+                  <div className="drip-pair" key={index}>
+                    {array[index] && (
+                      <DripsCard
+                        dripsNumber={array[index].id}
+                        dripsImg={array[index].img}
+                        title={array[index].title}
+                        desc={array[index].desc}
+                        bookBtnUrl={array[index].bookingBtn}
+                        moreDetailsUrl={array[index].moreDetailsUrl}
+                        price={array[index].price}
+                      />
+                    )}
+                    {array[index + 1] && (
+                      <DripsCard
+                        dripsNumber={array[index + 1].id}
+                        dripsImg={array[index + 1].img}
+                        title={array[index + 1].title}
+                        desc={array[index + 1].desc}
+                        bookBtnUrl={array[index + 1].bookingBtn}
+                        moreDetailsUrl={array[index + 1].moreDetailsUrl}
+                        price={array[index + 1].price}
+                      />
+                    )}
+                  </div>
+                );
+              }
+              return acc;
+            }, [])}
+          </Carousel>
           )}
         </div>
 
