@@ -47,6 +47,9 @@
           max-width: 200px;
         }
 
+        @media(max-width:500px) {
+          margin-right: 18px;
+        }
       }
       a{
         width: max-content;
