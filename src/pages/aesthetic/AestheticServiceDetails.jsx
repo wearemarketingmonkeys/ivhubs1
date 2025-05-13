@@ -236,11 +236,7 @@ const AestheticServiceDetails = () => {
                   <p>Image comparison not available.</p>
                 )}
               </div>
-              <div className="btn-wrap">
-                <Link to={"/booking"} className="btn">
-                  Book Now
-                </Link>
-              </div>
+              
             </div>
             <div className="right">
               <div className="faq">
