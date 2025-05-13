@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ivVideo from "../assets/video/IV-Welness-Drips-Loop.mp4";
 
 const Videotest = () => {
   return (
@@ -12,7 +13,7 @@ const Videotest = () => {
         playsInline
         loop
         >
-        <source src="https://www.ivhub.com/assets/IV-Welness-Drips-Loop.mp4" type="video/mp4" />
+        <source src={ivVideo} type="video/mp4" />
         Your browser does not support the video tag.
         </video>
       </div>
