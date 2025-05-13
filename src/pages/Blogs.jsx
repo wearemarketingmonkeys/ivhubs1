@@ -63,10 +63,10 @@ const Blogs = () => {
       <div className="blog-cards">
         <div className="container">
           <div className="article-wrapper">
-            <h1>
+            {/* <h1>
               Welcome to the IVHub Blog – your go-to resource for the latest
               updates, expert advice, and wellness inspiration.
-            </h1>
+            </h1> */}
 
             {currentArticles.map((x, index) => (
               <ArticleCard
