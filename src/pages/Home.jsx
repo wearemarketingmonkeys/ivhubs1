@@ -160,8 +160,11 @@ const Home = () => {
           className="hero-video"
           autoPlay
           muted
-          loop
           playsInline
+          onEnded={(e) => {
+            e.target.currentTime = 0;
+            e.target.play();
+          }}
         >
           <source src={ivVideo} type="video/mp4" />
           Your browser does not support the video tag.
