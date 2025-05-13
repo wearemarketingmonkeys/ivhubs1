@@ -12,7 +12,7 @@ const Videotest = () => {
         playsInline
         loop
         >
-        <source src="https://www.ivhub.com/assets/IV-Welness-Drips-RUYeFUMf.mp4" type="video/mp4" />
+        <source src="https://www.ivhub.com/assets/IV-Welness-Drips-Loop.mp4" type="video/mp4" />
         Your browser does not support the video tag.
         </video>
       </div>
