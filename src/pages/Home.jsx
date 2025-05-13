@@ -6,7 +6,7 @@ import { AiFillCaretDown } from "react-icons/ai";
 import SpecialOfferCard from "../components/SpecialOfferCard";
 import PromoPopup from '../components/PromoPopup';
 import specialOffersData from "../mocks/specialOffersData.json";
-import ivVideo from "../assets/video/IV-Welness-Drips.mp4";
+import ivVideo from "../assets/video/IV-Welness-Drips-Loop.mp4";
 import { Link } from "react-router-dom";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -157,17 +157,14 @@ const Home = () => {
       {/* Home Hero */}
       <div className="home-hero">
       <video
-          className="hero-video"
-          autoPlay
-          muted
-          playsInline
-          onEnded={(e) => {
-            e.target.currentTime = 0;
-            e.target.play();
-          }}
+        className="hero-video"
+        autoPlay
+        muted
+        playsInline
+        loop
         >
-          <source src={ivVideo} type="video/mp4" />
-          Your browser does not support the video tag.
+        <source src={ivVideo} type="video/mp4" />
+        Your browser does not support the video tag.
         </video>
         <div className="hero-overlay"></div>
         <div className="hero-txt-wrapper">
