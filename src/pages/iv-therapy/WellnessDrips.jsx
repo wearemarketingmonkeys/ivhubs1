@@ -112,7 +112,7 @@ const WellnessDrips = () => {
     },
     mobile: {
       breakpoint: { max: 768, min: 0 },
-      items: 2, // 1 pair (2 items total)
+      items: 1, // 1 pair (2 items total)
       slidesToSlide: 1,
     },
   };
