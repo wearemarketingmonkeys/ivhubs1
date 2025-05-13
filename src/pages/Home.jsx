@@ -26,6 +26,12 @@ const responsive = {
 
 const seenIcons = [seenImg1, seenImg2, seenImg3];
 
+const seenLinks = [
+  "https://finance.yahoo.com/news/iv-wellness-lounge-announces-luxurious-011500479.html",
+  "https://www.khaleejtimes.com/kt-network/iv-wellness-lounge-a-symphony-of-luxurious-wellness-in-dubai",
+  "https://www.gulf-times.com/article/670101/qatar/iv-wellness-lounge-unveiling-dubais-premier-wellness-oasis"
+];
+
 const gotDetails = [
   "Crow's Feet",
   "Dark Spot",
@@ -156,10 +162,6 @@ const Home = () => {
           muted
           loop
           playsInline
-          onEnded={(e) => {
-            e.target.currentTime = 0;
-            e.target.play();
-          }}
         >
           <source src={ivVideo} type="video/mp4" />
           Your browser does not support the video tag.
@@ -372,9 +374,11 @@ const Home = () => {
           <div className="as-seen-wrapper">
             <h1>As Seen On</h1>
             <div className="seen-wrap">
-              {seenIcons.map((x, index) => (
+            {seenIcons.map((x, index) => (
                 <div className="img-wrap" key={index}>
-                  <img src={x} alt="seen icon" />
+                  <a href={seenLinks[index]} target="_blank" rel="noopener noreferrer">
+                    <img src={x} alt="seen icon" />
+                  </a>
                 </div>
               ))}
             </div>
